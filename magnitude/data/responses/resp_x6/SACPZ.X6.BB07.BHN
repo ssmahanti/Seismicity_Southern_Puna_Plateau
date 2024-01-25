@@ -1,0 +1,78 @@
+* **********************************
+* NETWORK   (KNETWK): X6
+* STATION    (KSTNM): BB07
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2022-04-05T21:37:32
+* START             : 2008-01-30T15:03:14
+* END               : 2008-11-09T15:03:13
+* DESCRIPTION       : Argentina,Antofalla
+* LATITUDE          : -25.516001
+* LONGITUDE         : -67.618103
+* ELEVATION         : 3399.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 50.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp CMG3T/Reftek 130 Datalogger
+* INSTGAIN          : 1.504200e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 9.466330e+08 (M/S)
+* A0                : 5.714000e+08
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-3.701000e-02	+3.701000e-02	
+	-3.701000e-02	-3.701000e-02	
+	-1.131000e+03	+0.000000e+00	
+	-1.005000e+03	+0.000000e+00	
+	-5.027000e+02	+0.000000e+00	
+CONSTANT	5.409061e+17
+
+
+
+
+* **********************************
+* NETWORK   (KNETWK): X6
+* STATION    (KSTNM): BB07
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2022-04-05T21:37:32
+* START             : 2008-11-09T15:03:14
+* END               : 2009-12-31T23:59:59
+* DESCRIPTION       : Argentina,Antofalla
+* LATITUDE          : -25.516001
+* LONGITUDE         : -67.618103
+* ELEVATION         : 3399.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp CMG3T/Reftek 130 Datalogger
+* INSTGAIN          : 1.504200e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 9.466330e+08 (M/S)
+* A0                : 5.714000e+08
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-3.701000e-02	+3.701000e-02	
+	-3.701000e-02	-3.701000e-02	
+	-1.131000e+03	+0.000000e+00	
+	-1.005000e+03	+0.000000e+00	
+	-5.027000e+02	+0.000000e+00	
+CONSTANT	5.409061e+17
+
+
+
+

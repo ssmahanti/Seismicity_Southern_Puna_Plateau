@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: refrays - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JAKOVL~1\LOCALS~1\Temp\RSP32B7.tmp" with contents
+[
+/check:bounds /compile_only /debug:none /nologo /optimize:3 /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" 
+"D:\science\WORK\LOTOS_10_new\subr\rays_locate\ray_lay.f90"
+"D:\science\WORK\LOTOS_10_new\PROG_1D_MODEL\2_reftable\refrays.f90"
+"D:\science\WORK\LOTOS_10_new\subr\rays_locate\vrefmod.f90"
+"D:\science\WORK\LOTOS_10_new\subr\rays_locate\reftrace.f90"
+]
+Creating command line "link.exe kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/refrays.pdb" /debug /machine:I386 /out:"refrays.exe" /pdbtype:sept  .\Debug\reftrace.obj .\Debug\vrefmod.obj .\Debug\refrays.obj .\Debug\ray_lay.obj "
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\science\WORK\LOTOS_10_new\subr\rays_locate\ray_lay.f90
+D:\science\WORK\LOTOS_10_new\PROG_1D_MODEL\2_reftable\refrays.f90
+D:\science\WORK\LOTOS_10_new\subr\rays_locate\vrefmod.f90
+D:\science\WORK\LOTOS_10_new\subr\rays_locate\reftrace.f90
+Linking...
+
+
+
+<h3>Results</h3>
+refrays.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+  Fri Sep  8 14:57:09 2017 for program Focmec
+ Sakhalin:  8 BB  + 198 NEIC P 0.2 rat thresh 20 P, 0.2 SH, 0.2 SV
+ Input from a file focmec_all.inp
+ 12-MAY-90 Sakhalin Island Event: 8 BB stations nocrust odel , 1990 QED
+ Not including emergent polarity picks
+ Polarities/Errors:  P 197/20.0  SV 007/ 0.2  SH 008/ 0.2
+ 11 ratios, maximum of  0 with |o-c| diff >  0.2000    Focus VP/VS: 1.8225
+For ratios,  0.100 = P radiation cutoff  0.100 = S radiation cutoff
+ FLAG is NUM, DEN, N&D if n, d, both below curoff
+ If FLAG N&D, total ratios used decreased by 1
+ R Ac/Tot: # acceptable / total ratios minus M&D
+ RMS Err: RMS of acceptable obs ratios
+ AbsMaxDiff: max abs difference for ok solutions
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+    Dip   Strike   Rake    Pol: P     SV    SH  AccR/TotR  RMS RErr  AbsMaxDiff
+   80.61   66.98  -69.72      14.72  0.00  0.00    11/11    0.1147    0.1989
+   76.43   59.08  -64.23      14.51  0.00  0.00    11/11    0.0852    0.1543
+   80.95   62.42  -64.66      13.97  0.00  0.00    11/11    0.1023    0.1950

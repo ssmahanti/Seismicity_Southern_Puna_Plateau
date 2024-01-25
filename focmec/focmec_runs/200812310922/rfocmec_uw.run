@@ -1,0 +1,68 @@
+#!/bin/sh -f
+rm a.junk
+
+eve="200812310922"
+
+../../bin/focmec << EOT > a.junk
+output_${eve}_uw.out
+Event 8703270729 4 UW errors max
+\* Comment is previous line: Input file for focmec is next
+puna_${eve}_p.inp
+	correct file  [y]
+y     Include emergent arrivals?...[Y]
+n	relative weighting..[y]
+0	allowed P polarity erors..[0]
+	exit after this many acceptable solutions...[100]
+	minimum B trend  [0]
+	B increment  [5]
+	maximum B trend  [355]
+	min B plunge..[0]
+	increment  [5]
+	maximum..[90]
+	minimum Angle..[0]
+	increment  [5]
+	maximum  [175]
+EOT
+mv focmec.lst output_${eve}_uw.lst
+
+
+#Plotting...............................
+rm a.junk
+../../bin/focplt << EOT > a.junk
+n	Upper hemisphere projection?..[N]
+y	Plot polarities and/or ratio data?
+/*  Next entry is input polarity/ratio plot file name
+puna_${eve}_p.inp
+y	Desired file?..[Y]
+y	Plot impulsive P polarities?..[Y]
+0.2	Size for impulsive P polarities [0.25]
+1	linewidth for impulsive P polarities..[1]
+y     emergent P?
+0.15	Enter size for emergent P polarities [0.25]
+      Line width for emergent arrivals  [1]
+2	linewidth for circle outline..[2]
+n	Add a title?..[Y]
+n	Include time & file name?..[Y]
+n	Add more data to plot?..[N]
+y       Plot focal mechanism solutions?..[Y]
+y       Print/display solution summaries?..[N]
+n       Plot P, T and B axes?  [Y]
+y       P nodal planes..[Y]
+n       Dashed Line?..[N]
+1	Linewidth for solutions ... [1]
+y	Same plot as data?
+y      Input solutions from a file?..[Y]
+/* Filespec for file with solutions
+output_${eve}_uw.out
+y       Correct file?..[Y]
+n     Include time & file name?..[Y]
+n     Add more solutions?
+n     Add a plot label?
+EOT
+mv focplt.lst focplt_${eve}_uw.lst
+mv temp.sgf focplt_${eve}_uw.sgf
+../../bin/sgftoeps focplt_${eve}_uw
+
+gmt psconvert focplt_${eve}_uw.eps -Tg -E300
+rm focplt_${eve}_uw.sgf focplt_${eve}_uw.eps
+

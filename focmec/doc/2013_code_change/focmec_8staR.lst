@@ -1,0 +1,419 @@
+  Wed Jun 17 14:25:55 2009  for program FOCMEC
+ Sakhalin:  Relative weight SV 0.5 error: 8 BB stations
+ Input from a file focmec_8sta.inp
+  12-MAY-90 Sakhalin Island Event:  BLA, DMC, using 0.1 Hz velocity   KIP ok
+
+ Statn  Azimuth  TOAng   Key  Log10 (S/P)  NumPol  DenTOAng  Comment
+  BLA     32.6     28.0   D
+  BLA     32.6     30.7   R
+  BLA     32.6     30.7   F
+  BLA     32.6     30.7   H      0.7262 SH    R      28.01 84,15.2
+  BLA     32.6     30.7   S     -0.6994 SS    F      30.70 1.04,5.56
+  CCM     39.7     30.5   D
+  CCM     39.7     33.0   R
+  CCM     39.7     33.0   B
+  CCM     39.7     33.0   H      0.4788 SH    R      30.53 53.5,17
+  CCM     39.7     33.0   V     -0.1166 SV    B      30.53 12.6,17
+  COR     54.7     40.8   D
+  COR     54.7     42.4   R
+  COR     54.7     42.4   B
+  COR     54.7     42.4   H      1.1068 SH    R      40.78 208,15.1
+  COR     54.7     42.4   V      0.6071 SV    B      40.78 58.8,15.1
+  HRV     24.2     29.2   D
+  HRV     24.2     31.7   R
+  HRV     24.2     31.7   B
+  HRV     24.2     31.7   H      0.4384 SH    R      29.16 60,21
+  HRV     24.2     31.7   S     -0.4524 SS    B      31.69 2.6,7.9
+  KEV    336.5     45.2   D
+  KEV    336.5     46.3   L
+  KEV    336.5     46.3   B
+  KEV    336.5     46.3   H     -0.0114 SH    L      45.23 41.5,39
+  KEV    336.5     46.3   V     -0.0427 SV    B      45.23 34,39
+  KIP     97.8     44.1   C
+  KIP     97.8     45.3   R
+  KIP     97.8     45.3   B
+  KIP     97.8     45.3   H      0.6294 SH    R      44.08 102,22
+  KIP     97.8     45.3   V      0.5496 SV    B      44.08 75,22
+  PAS     59.8     35.7   D
+  PAS     59.8     37.8   R
+  PAS     59.8     37.8   B
+  PAS     59.8     37.8   H      0.8053 SH    R      35.69 74.5,11
+  PAS     59.8     37.8   V      0.3358 SV    B      35.69 23,11
+  TOL    334.5     28.0   D
+  TOL    334.5     30.6   L
+  TOL    334.5     30.6   B
+  TOL    334.5     30.6   H     -0.0374 SH    L      27.95 20,21
+  TOL    334.5     30.6   V      0.2085 SV    B      27.95 33,21
+ Polarities/Errors:  P 008/ 0.0  SV 008/ 0.5  SH 008/ 0.0  Threshh. = 0.10
+ Input 16 ratios  0 allowed errors, maximum error of 0.50    VP/VS = 1.830
+For ratios,  0.050 = P radiation cutoff  0.150 = S radiation cutoff
+ The minimum, increment and maximum B axis trend are     0.00    5.00  355.00
+ The limits for the B axis plunge are     0.00    5.00   90.00
+ The limits for the angle of the A axis are     0.00    5.00   85.00
+ R Ac/Al is number of acceptable ratios / allowed
+ RMS Err is the RMS of acceptable obs-calc ratios
+ RMS Err (all) is the RMS of all obs-calc ratios
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.04    60.88   -84.92
+     Dip,Strike,Rake     11.17   213.70  -116.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    123.70    78.83   330.88     9.96
+     Lower Hem. Trend & Plunge of B    240.00     5.00
+     Lower Hem. Trend, Plunge of P,T    337.10    54.69   146.51    34.85
+     MRR =-0.34  MTT = 0.18  MPP = 0.15  MRT =-0.83  MRP =-0.44  MTP = 0.19
+A angle with plane defined by vertical & B trend: 10.0
+
+ SV Polarity error at  HRV  TOL 
+ SV Polarity weights:  0.10 0.16
+  Total SV polarity weight is  0.259
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.8105      -0.0843      BLA        SH       R      R       
+     -0.6994     -0.6403      -0.0591      BLA        SS       F      F    NUM
+      0.4788      0.8951      -0.4163      CCM        SH       R      R       
+     -0.1166      0.2124      -0.3290      CCM        SV       B      F    NUM
+      1.1068      1.1534      -0.0466      COR        SH       R      R       
+      0.6071      0.4693       0.1378      COR        SV       B      B       
+      0.4384      0.6845      -0.2461      HRV        SH       R      R       
+     -0.4524     -0.5715       0.1191      HRV        SS       B      F    NUM
+     -0.0114     -0.0101      -0.0013      KEV        SH       L      L    NUM
+     -0.0427      0.3624      -0.4051      KEV        SV       B      B       
+      0.6294      0.9393      -0.3099      KIP        SH       R      R       
+      0.5496      0.5584      -0.0088      KIP        SV       B      B       
+      0.8053      1.2867      -0.4814      PAS        SH       R      R       
+      0.3358      0.5790      -0.2432      PAS        SV       B      B       
+     -0.0374     -0.0223      -0.0151      TOL        SH       L      L    NUM
+      0.2085      0.1105       0.0980      TOL        SV       B      F       
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.244
+ The error for 16 acceptable solutions is 0.244
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.04    65.88   -84.92
+     Dip,Strike,Rake     11.17   218.70  -116.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    128.70    78.83   335.88     9.96
+     Lower Hem. Trend & Plunge of B    245.00     5.00
+     Lower Hem. Trend, Plunge of P,T    342.10    54.69   151.51    34.85
+     MRR =-0.34  MTT = 0.22  MPP = 0.12  MRT =-0.86  MRP =-0.37  MTP = 0.18
+A angle with plane defined by vertical & B trend: 10.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.10 0.15
+  Total SV polarity weight is  0.356
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7420      -0.0158      BLA        SH       R      R       
+     -0.6994     -0.6052      -0.0942      BLA        SS       F      F    NUM
+      0.4788      0.8217      -0.3429      CCM        SH       R      R       
+     -0.1166      0.1671      -0.2837      CCM        SV       B      F    NUM
+      1.1068      1.0341       0.0727      COR        SH       R      R       
+      0.6071      0.3629       0.2442      COR        SV       B      B    NUM
+      0.4384      0.6135      -0.1751      HRV        SH       R      R       
+     -0.4524     -0.5259       0.0735      HRV        SS       B      F    NUM
+     -0.0114     -0.0073      -0.0041      KEV        SH       L      L    NUM
+     -0.0427      0.3763      -0.4190      KEV        SV       B      B       
+      0.6294      1.0458      -0.4164      KIP        SH       R      R       
+      0.5496      0.6159      -0.0663      KIP        SV       B      B       
+      0.8053      1.1543      -0.3490      PAS        SH       R      R       
+      0.3358      0.4361      -0.1003      PAS        SV       B      B    NUM
+     -0.0374     -0.0208      -0.0166      TOL        SH       L      L    NUM
+      0.2085      0.0980       0.1105      TOL        SV       B      F       
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.224
+ The error for 16 acceptable solutions is 0.224
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.15    65.13   -79.85
+     Dip,Strike,Rake     14.11   198.82  -135.44   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    108.82    75.89   335.13     9.85
+     Lower Hem. Trend & Plunge of B    243.38    10.00
+     Lower Hem. Trend, Plunge of P,T    347.31    53.78   146.45    34.39
+     MRR =-0.33  MTT = 0.14  MPP = 0.19  MRT =-0.85  MRP =-0.36  MTP = 0.24
+A angle with plane defined by vertical & B trend: 10.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.15 0.15
+  Total SV polarity weight is  0.401
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7442      -0.0180      BLA        SH       R      R       
+     -0.6994     -0.6154      -0.0840      BLA        SS       F      F    NUM
+      0.4788      0.8288      -0.3500      CCM        SH       R      R       
+     -0.1166      0.1595      -0.2761      CCM        SV       B      F    NUM
+      1.1068      1.0534       0.0534      COR        SH       R      R       
+      0.6071      0.3526       0.2545      COR        SV       B      B    NUM
+      0.4384      0.6078      -0.1694      HRV        SH       R      R       
+     -0.4524     -0.5279       0.0755      HRV        SS       B      F    NUM
+     -0.0114     -0.0046      -0.0068      KEV        SH       L      L    NUM
+     -0.0427      0.3653      -0.4080      KEV        SV       B      B       
+      0.6294      1.0183      -0.3889      KIP        SH       R      R       
+      0.5496      0.6329      -0.0833      KIP        SV       B      B       
+      0.8053      1.1765      -0.3712      PAS        SH       R      R       
+      0.3358      0.4341      -0.0983      PAS        SV       B      B    NUM
+     -0.0374     -0.0153      -0.0221      TOL        SH       L      L    NUM
+      0.2085      0.1072       0.1013      TOL        SV       B      F       
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.222
+ The error for 16 acceptable solutions is 0.222
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.34    64.33   -74.78
+     Dip,Strike,Rake     17.96   185.98  -147.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.98    72.04   334.33     9.66
+     Lower Hem. Trend & Plunge of B    241.71    15.00
+     Lower Hem. Trend, Plunge of P,T    352.00    52.30   141.44    33.64
+     MRR =-0.32  MTT = 0.06  MPP = 0.26  MRT =-0.84  MRP =-0.35  MTP = 0.29
+A angle with plane defined by vertical & B trend: 10.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.19 0.16
+  Total SV polarity weight is  0.450
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7507      -0.0245      BLA        SH       R      R       
+     -0.6994     -0.5710      -0.1284      BLA        SS       F      F       
+      0.4788      0.8400      -0.3612      CCM        SH       R      R       
+     -0.1166      0.1575      -0.2741      CCM        SV       B      F    NUM
+      1.1068      1.0771       0.0297      COR        SH       R      R       
+      0.6071      0.3506       0.2565      COR        SV       B      B    NUM
+      0.4384      0.6069      -0.1685      HRV        SH       R      R       
+     -0.4524     -0.4277      -0.0247      HRV        SS       B      F       
+     -0.0114      0.1207      -0.1321      KEV        SH       L      L       
+     -0.0427      0.3460      -0.3887      KEV        SV       B      B       
+      0.6294      0.9878      -0.3584      KIP        SH       R      R       
+      0.5496      0.6430      -0.0934      KIP        SV       B      B       
+      0.8053      1.2041      -0.3988      PAS        SH       R      R       
+      0.3358      0.4412      -0.1054      PAS        SV       B      B    NUM
+     -0.0374      0.0182      -0.0556      TOL        SH       L      L       
+      0.2085      0.1260       0.0825      TOL        SV       B      F       
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.224
+ The error for 16 acceptable solutions is 0.224
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.34    69.47   -74.78
+     Dip,Strike,Rake     17.96   191.12  -147.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    101.12    72.04   339.47     9.66
+     Lower Hem. Trend & Plunge of B    246.86    15.00
+     Lower Hem. Trend, Plunge of P,T    357.14    52.30   146.59    33.64
+     MRR =-0.32  MTT = 0.11  MPP = 0.21  MRT =-0.87  MRP =-0.28  MTP = 0.30
+A angle with plane defined by vertical & B trend: 10.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.12 0.20 0.14
+  Total SV polarity weight is  0.461
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.6715       0.0547      BLA        SH       R      R       
+     -0.6994     -0.4561      -0.2433      BLA        SS       F      F       
+      0.4788      0.7597      -0.2809      CCM        SH       R      R       
+     -0.1166      0.1167      -0.2333      CCM        SV       B      F    NUM
+      1.1068      0.9644       0.1424      COR        SH       R      R       
+      0.6071      0.2634       0.3437      COR        SV       B      B    NUM
+      0.4384      0.5181      -0.0797      HRV        SH       R      R       
+     -0.4524     -0.3261      -0.1263      HRV        SS       B      F       
+     -0.0114      0.2080      -0.2194      KEV        SH       L      L       
+     -0.0427      0.3877      -0.4304      KEV        SV       B      B       
+      0.6294      1.1140      -0.4846      KIP        SH       R      R       
+      0.5496      0.7100      -0.1604      KIP        SV       B      B       
+      0.8053      1.0835      -0.2782      PAS        SH       R      R       
+      0.3358      0.3379      -0.0021      PAS        SV       B      B    NUM
+     -0.0374      0.1583      -0.1957      TOL        SH       L      L       
+      0.2085      0.0848       0.1237      TOL        SV       B      F       
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.248
+ The error for 16 acceptable solutions is 0.248
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     75.92    58.18   -69.35
+     Dip,Strike,Rake     24.81   181.02  -144.58   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     91.02    65.19   328.18    14.08
+     Lower Hem. Trend & Plunge of B    232.94    20.00
+     Lower Hem. Trend, Plunge of P,T    353.58    54.47   131.77    28.02
+     MRR =-0.44  MTT = 0.01  MPP = 0.43  MRT =-0.75  MRP =-0.36  MTP = 0.35
+A angle with plane defined by vertical & B trend: 15.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.12 0.10
+  Total SV polarity weight is  0.321
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7251       0.0011      BLA        SH       R      R       
+     -0.6994     -0.6233      -0.0761      BLA        SS       F      F    NUM
+      0.4788      0.8210      -0.3422      CCM        SH       R      R       
+     -0.1166      0.1382      -0.2548      CCM        SV       B      F    NUM
+      1.1068      1.0953       0.0115      COR        SH       R      R       
+      0.6071      0.4576       0.1495      COR        SV       B      B       
+      0.4384      0.5822      -0.1438      HRV        SH       R      R       
+     -0.4524     -0.5243       0.0719      HRV        SS       B      F    NUM
+     -0.0114      0.2459      -0.2573      KEV        SH       L      L       
+     -0.0427      0.4560      -0.4987      KEV        SV       B      B       
+      0.6294      0.9433      -0.3139      KIP        SH       R      R       
+      0.5496      0.7882      -0.2386      KIP        SV       B      B       
+      0.8053      1.1957      -0.3904      PAS        SH       R      R       
+      0.3358      0.5770      -0.2412      PAS        SV       B      B       
+     -0.0374      0.0509      -0.0883      TOL        SH       L      L       
+      0.2085     -0.0151       0.2236      TOL        SV       B      F    NUM
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.247
+ The error for 16 acceptable solutions is 0.247
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     76.43    59.08   -64.23
+     Dip,Strike,Rake     28.90   174.99  -150.97   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     84.99    61.10   329.08    13.57
+     Lower Hem. Trend & Plunge of B    232.62    25.00
+     Lower Hem. Trend, Plunge of P,T    358.82    51.71   128.90    26.95
+     MRR =-0.41  MTT =-0.07  MPP = 0.48  MRT =-0.74  MRP =-0.32  MTP = 0.38
+A angle with plane defined by vertical & B trend: 15.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.18 0.10
+  Total SV polarity weight is  0.376
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7168       0.0094      BLA        SH       R      R       
+     -0.6994     -0.6194      -0.0800      BLA        SS       F      F    NUM
+      0.4788      0.8165      -0.3377      CCM        SH       R      R       
+     -0.1166      0.1324      -0.2490      CCM        SV       B      F    NUM
+      1.1068      1.0901       0.0167      COR        SH       R      R       
+      0.6071      0.3640       0.2431      COR        SV       B      B       
+      0.4384      0.5647      -0.1263      HRV        SH       R      R       
+     -0.4524     -0.4400      -0.0124      HRV        SS       B      F       
+     -0.0114      0.3636      -0.3750      KEV        SH       L      L       
+     -0.0427      0.4251      -0.4678      KEV        SV       B      B       
+      0.6294      0.9429      -0.3135      KIP        SH       R      R       
+      0.5496      0.7940      -0.2444      KIP        SV       B      B       
+      0.8053      1.1937      -0.3884      PAS        SH       R      R       
+      0.3358      0.5024      -0.1666      PAS        SV       B      B       
+     -0.0374      0.1978      -0.2352      TOL        SH       L      L       
+      0.2085      0.0011       0.2074      TOL        SV       B      F    NUM
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.256
+ The error for 16 acceptable solutions is 0.256
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     72.77    50.96   -58.43
+     Dip,Strike,Rake     35.53   166.70  -149.36   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     76.70    54.47   320.96    17.23
+     Lower Hem. Trend & Plunge of B    220.65    30.00
+     Lower Hem. Trend, Plunge of P,T    357.64    51.71   117.52    21.47
+     MRR =-0.48  MTT =-0.20  MPP = 0.68  MRT =-0.64  MRP =-0.32  MTP = 0.34
+A angle with plane defined by vertical & B trend: 20.0
+
+ SV Polarity error at  HRV  TOL 
+ SV Polarity weights:  0.12 0.10
+  Total SV polarity weight is  0.224
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7439      -0.0177      BLA        SH       R      R       
+     -0.6994     -0.6452      -0.0542      BLA        SS       F      F    NUM
+      0.4788      0.8494      -0.3706      CCM        SH       R      R       
+     -0.1166      0.1472      -0.2638      CCM        SV       B      B    NUM
+      1.1068      1.1810      -0.0742      COR        SH       R      R       
+      0.6071      0.6585      -0.0514      COR        SV       B      B       
+      0.4384      0.6004      -0.1620      HRV        SH       R      R       
+     -0.4524     -0.5474       0.0950      HRV        SS       B      F    NUM
+     -0.0114      0.4133      -0.4247      KEV        SH       L      L       
+     -0.0427      0.4038      -0.4465      KEV        SV       B      B       
+      0.6294      0.8248      -0.1954      KIP        SH       R      R       
+      0.5496      0.8612      -0.3116      KIP        SV       B      B       
+      0.8053      1.2595      -0.4542      PAS        SH       R      R       
+      0.3358      0.7844      -0.4486      PAS        SV       B      B       
+     -0.0374      0.2182      -0.2556      TOL        SH       L      L       
+      0.2085     -0.0011       0.2096      TOL        SV       B      F    NUM
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.283
+ The error for 16 acceptable solutions is 0.283
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     77.05    59.89   -59.13
+     Dip,Strike,Rake     33.23   170.44  -155.85   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     80.44    56.77   329.89    12.95
+     Lower Hem. Trend & Plunge of B    232.26    30.00
+     Lower Hem. Trend, Plunge of P,T      3.15    48.59   126.16    25.66
+     MRR =-0.37  MTT =-0.15  MPP = 0.53  MRT =-0.73  MRP =-0.29  MTP = 0.41
+A angle with plane defined by vertical & B trend: 15.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.11 0.23 0.10
+  Total SV polarity weight is  0.438
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7116       0.0146      BLA        SH       R      R       
+     -0.6994     -0.4925      -0.2069      BLA        SS       F      F       
+      0.4788      0.8152      -0.3364      CCM        SH       R      R       
+     -0.1166      0.1326      -0.2492      CCM        SV       B      F    NUM
+      1.1068      1.0895       0.0173      COR        SH       R      R       
+      0.6071      0.3245       0.2826      COR        SV       B      B    NUM
+      0.4384      0.5496      -0.1112      HRV        SH       R      R       
+     -0.4524     -0.3066      -0.1458      HRV        SS       B      F       
+     -0.0114      0.4591      -0.4705      KEV        SH       L      L       
+     -0.0427      0.3909      -0.4336      KEV        SV       B      B       
+      0.6294      0.9386      -0.3092      KIP        SH       R      R       
+      0.5496      0.7951      -0.2455      KIP        SV       B      B       
+      0.8053      1.1972      -0.3919      PAS        SH       R      R       
+      0.3358      0.4195      -0.0837      PAS        SV       B      B       
+     -0.0374      0.3122      -0.3496      TOL        SH       L      L       
+      0.2085      0.0224       0.1861      TOL        SV       B      F    NUM
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.276
+ The error for 16 acceptable solutions is 0.276
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     73.73    51.45   -53.31
+     Dip,Strike,Rake     39.67   162.06  -153.97   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     72.06    50.33   321.45    16.27
+     Lower Hem. Trend & Plunge of B    219.66    35.00
+     Lower Hem. Trend, Plunge of P,T      0.55    47.94   114.69    20.25
+     MRR =-0.43  MTT =-0.30  MPP = 0.73  MRT =-0.63  MRP =-0.29  MTP = 0.34
+A angle with plane defined by vertical & B trend: 20.0
+
+ SV Polarity error at  CCM  HRV  TOL 
+ SV Polarity weights:  0.10 0.18 0.10
+  Total SV polarity weight is  0.381
+
+          Log10(Ratio)                              Ratio     S Polarity
+     Observed  Calculated    Difference  Station     Type     Obs.  Calc. Flag
+      0.7262      0.7576      -0.0314      BLA        SH       R      R       
+     -0.6994     -0.6488      -0.0506      BLA        SS       F      F    NUM
+      0.4788      0.8661      -0.3873      CCM        SH       R      R       
+     -0.1166      0.1588      -0.2754      CCM        SV       B      F    NUM
+      1.1068      1.2036      -0.0968      COR        SH       R      R       
+      0.6071      0.6196      -0.0125      COR        SV       B      B       
+      0.4384      0.6081      -0.1697      HRV        SH       R      R       
+     -0.4524     -0.4665       0.0141      HRV        SS       B      F       
+     -0.0114      0.4784      -0.4898      KEV        SH       L      L       
+     -0.0427      0.3240      -0.3667      KEV        SV       B      B       
+      0.6294      0.7991      -0.1697      KIP        SH       R      R       
+      0.5496      0.8460      -0.2964      KIP        SV       B      B       
+      0.8053      1.2905      -0.4852      PAS        SH       R      R       
+      0.3358      0.7678      -0.4320      PAS        SV       B      B       
+     -0.0374      0.3145      -0.3519      TOL        SH       L      L       
+      0.2085      0.0197       0.1888      TOL        SV       B      F    NUM
+
+ The RMS log amplitude ratio error for all 16 allowed solutions is  0.289
+ The error for 16 acceptable solutions is 0.289
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are  10 acceptable solutions

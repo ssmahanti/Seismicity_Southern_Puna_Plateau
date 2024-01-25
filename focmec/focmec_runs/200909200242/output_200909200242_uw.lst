@@ -1,0 +1,54 @@
+  Fri Oct 20 15:31:01 2023 for program Focmec
+ Event 8703270729 4 UW errors max
+ Input from a file puna_200909200242_p.inp
+ 200909200242
+
+ Statn  Azimuth    TOA   Key  Log10 Ratio  NumPol  DenTOA  Comment
+  BB14   195.3     97.7   +                                IP
+ Including emergent polarity picks
+  EW08   252.2    174.6   +                                IP
+  BB13   225.7     89.1   U                                IP
+  BB15   232.2     98.2   U                                IP
+  NS16   248.3     84.1   +                                IP
+  NS13   256.8     84.1   +                                IP
+  BB11   259.9     87.5   U                                IP
+  NS10   265.6     84.1   U                                IP
+  EW03   274.5     93.2   D                                IP
+  EW01   279.5     84.2   D                                IP
+  EW10   284.0     84.1   D                                IP
+  EW06   284.6    112.9   D                                IP
+  EW05   287.3    104.1   D                                IP
+  NS04   289.8     84.1   D                                IP
+  BB05   292.1     49.9   -                                IP
+  NS03   292.8     84.1   -                                IP
+  NS02   296.1     84.1   -                                IP
+  NS01   299.0     84.1   -                                IP
+  NS19   301.0     84.1   D                                IP
+  NS20   304.6     84.1   D                                IP
+  BB18   306.3     98.7   D                                IP
+  NS22   311.0     84.1   D                                IP
+  NS23   313.9     84.1   D                                IP
+  NS24   315.5     84.1   D                                IP
+  GALA   315.7     84.1   D                                IP
+  NS25   317.3     84.1   D                                IP
+  NS26   319.4     84.1   -                                IP
+  BB16   344.8    113.9   +                                IP
+  BB21   353.8     84.1   -                                IP
+  BB17   353.8     89.0   -                                IP
+  EW22   105.7    153.4   +                                IP
+ Polarities/Errors:  P 031/00  SV 000/00  SH 000/00
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     48.36     7.82    18.88
+     Dip,Strike,Rake     76.00   265.02   136.78   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    175.02    14.00   277.82    41.64
+     Lower Hem. Trend, Plunge of P,T    322.34    17.39   217.19    39.86
+     B trend, B plunge, Angle:   70.59  45.00  20.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are   1 acceptable solutions

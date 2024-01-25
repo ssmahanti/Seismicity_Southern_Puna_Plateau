@@ -1,0 +1,44 @@
+* **********************************
+* NETWORK   (KNETWK): X6
+* STATION    (KSTNM): EW19
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2022-03-14T22:28:32
+* START             : 2007-08-01T00:00:00
+* END               : 2009-12-12T12:00:00
+* DESCRIPTION       : Chile
+* LATITUDE          : -26.881001
+* LONGITUDE         : -68.666000
+* ELEVATION         : 4575.0
+* DEPTH             : 0.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 50.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Nanometrics Trillium 40 Sec Response/Taurus Standa
+* INSTGAIN          : 1.496770e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 5.987100e+09 (M/S)
+* A0                : 1.106380e+05
+* **********************************
+ZEROS	6
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-6.880000e+01	+0.000000e+00	
+	-3.230000e+02	+0.000000e+00	
+	-2.530000e+03	+0.000000e+00	
+POLES	7
+	-2.410000e+02	-1.780000e+02	
+	-2.410000e+02	+1.780000e+02	
+	-5.350000e+02	-7.190000e+02	
+	-5.350000e+02	+7.190000e+02	
+	-8.630000e+01	+0.000000e+00	
+	-1.103000e-01	+1.110000e-01	
+	-1.103000e-01	-1.110000e-01	
+CONSTANT	6.624008e+14
+
+
+
+

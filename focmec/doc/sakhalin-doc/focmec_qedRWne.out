@@ -1,0 +1,15 @@
+  Fri Sep  8 14:57:52 2017 for program Focmec
+ Sakhalin: NEIC/QED 190 stations 6.4 errors with relative weighting
+ Input from a file focmec_qed.inp
+  12-MAY-90 Sakhalin Island Event:  NEIC/QED (11-JUNE-90)
+ Not including emergent polarity picks
+ Polarities/Errors:  P 190/ 5.8  SV 000/ 0.0  SH 000/ 0.0
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+    Dip   Strike   Rake    Pol: P     SV    SH
+   56.36  296.89   10.27       5.73  0.00  0.00
+   60.50  291.51    5.73       5.76  0.00  0.00
+   60.13  295.77    2.88       5.71  0.00  0.00
+   60.13  294.23   -2.88       5.62  0.00  0.00

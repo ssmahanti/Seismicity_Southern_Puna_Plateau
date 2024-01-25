@@ -1,0 +1,41 @@
+  Thu Jun  8 15:08:23 2017 for program dsretc
+
+     Sakhalin Island: final CMT moment-tensor input
+   Input is moment tensor (Dziewonski convention)
+ MRR MTT MPP MRT MRP MTP
+ -3.568    -0.8660      4.434     -6.122     -2.665      2.470    
+  
+  Trace of moment tensor =  2.3842E-06  Deviatoric tensor moment =   8.201    
+  Deviatoric moment tensor eigenvalues: -8.510     0.6580      7.852    
+  EPSILON    % OF CLVD     % OF DC
+   0.0773     15.4637     84.5363
+  
+     Dip,Strike,Rake     76.17    55.86   -64.11
+     Dip,Strike,Rake     29.12   172.08  -150.59   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     82.08    60.88   325.86    13.83
+     Lower Hem. Trend & Plunge of B    229.24    25.09
+     Lower Hem. Trend, Plunge of P,T    355.87    51.88   125.65    26.66
+     MRR =-0.42  MTT =-0.11  MPP = 0.53  MRT =-0.72  MRP =-0.36  MTP = 0.35
+     Angle:    105.30
+                                           
+                                           
+                    #------                
+               ###--------------           
+             ###------------------         
+           ####---------------------       
+         #####-------   -------------#     
+        #####-------- P ------------###    
+        #####--------   ----------#####    
+       #####--------------------########   
+       #####------------------##########   
+       #####----------------############   
+       #####-------------###############   
+       ######----------#################   
+        #####------#############   ####    
+        ######--################ T ####    
+         ##----#################   ###     
+           -----####################       
+             -----################         
+               ------###########           
+                    -----##                
+                                           

@@ -1,0 +1,221 @@
+  Mon Oct 16 12:31:57 2023 for program Focmec
+ Event 8703270729 1.75 relative weighted errors
+ Input from a file puna_200907090052_p.inp
+ 200907090052
+
+ Statn  Azimuth    TOA   Key  Log10 Ratio  NumPol  DenTOA  Comment
+  NS18   236.3     94.7   D                                IP
+  BB24   248.7     92.6   D                                IP
+  NS16   255.3     96.2   D                                IP
+  NS15   261.2     96.5   D                                IP
+  NS14   264.3     95.6   D                                IP
+  BB01   266.8     92.8   -                                IP
+ Including emergent polarity picks
+  NS13   271.2     95.0   D                                IP
+  NS12   277.8     95.1   D                                IP
+  BB02   281.1     92.9   D                                IP
+  EW20   283.3     79.9   -                                IP
+  EW19   284.9     79.9   -                                IP
+  NS10   289.3     95.2   D                                IP
+  EW16   289.6     79.9   D                                IP
+  BB05   314.2     79.9   D                                IP
+  BB06   320.2     49.2   U                                IP
+  BB11   319.5    109.8   D                                IP
+  EW10   327.1     95.3   D                                IP
+  NS04   329.0     93.9   D                                IP
+  NS03   329.7     93.2   D                                IP
+  NS02   331.2     92.6   D                                IP
+  NS01   332.8     92.3   D                                IP
+  NS19   334.5     79.9   D                                IP
+  NS20   337.3     79.9   U                                IP
+  EW01   336.3     98.3   D                                IP
+  NS21   340.8     79.9   U                                IP
+  NS22   342.5     79.9   D                                IP
+  NS23   344.5     79.9   +                                IP
+  NS24   345.0     79.9   +                                IP
+  GALA   351.8     79.9   +                                IP
+  EW03   354.8    102.2   D                                IP
+  BB18    20.6     95.7   D                                IP
+  BB17    26.8     79.9   D                                IP
+  EW05    32.6     98.2   D                                IP
+  BB16    45.9     94.2   -                                IP
+  EW06    45.3     97.5   D                                IP
+  EW08    62.8     95.3   D                                IP
+  EW22    65.9     94.7   D                                IP
+  BB15    86.3    111.5   D                                IP
+  BB14   110.3     98.1   D                                IP
+  BB13   161.2    111.7   D                                IP
+ Polarities/Errors:  P 040/ 0.2  SV 000/ 0.0  SH 000/ 0.0
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     45.00   165.00    90.00
+     Dip,Strike,Rake     45.00   345.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    255.00    45.00    75.00    45.00
+     Lower Hem. Trend, Plunge of P,T     75.00     0.00   180.00    90.00
+     B trend, B plunge, Angle:  165.00   0.00  45.00
+
+ P Polarity error at  NS22 EW03 BB13
+ P Polarity weights:  0.03 0.02 0.13
+  Total P polarity weight is  0.178   Total number:   3
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.00   165.00    90.00
+     Dip,Strike,Rake     40.00   345.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    255.00    50.00    75.00    40.00
+     Lower Hem. Trend, Plunge of P,T    255.00     5.00    75.00    85.00
+     B trend, B plunge, Angle:  165.00   0.00  50.00
+
+ P Polarity error at  EW01 NS22 EW03 BB13
+ P Polarity weights:  0.01 0.03 0.00 0.12
+  Total P polarity weight is  0.158   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     55.00   165.00    90.00
+     Dip,Strike,Rake     35.00   345.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    255.00    55.00    75.00    35.00
+     Lower Hem. Trend, Plunge of P,T    255.00    10.00    75.00    80.00
+     B trend, B plunge, Angle:  165.00   0.00  55.00
+
+ P Polarity error at  BB11 NS20 EW01 NS22 BB13
+ P Polarity weights:  0.05 0.00 0.01 0.02 0.11
+  Total P polarity weight is  0.194   Total number:   5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     45.00   170.00    90.00
+     Dip,Strike,Rake     45.00   350.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    260.00    45.00    80.00    45.00
+     Lower Hem. Trend, Plunge of P,T     80.00     0.00   180.00    90.00
+     B trend, B plunge, Angle:  170.00   0.00  45.00
+
+ P Polarity error at  NS20 NS22 EW03 BB13
+ P Polarity weights:  0.02 0.01 0.04 0.12
+  Total P polarity weight is  0.184   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.00   170.00    90.00
+     Dip,Strike,Rake     40.00   350.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    260.00    50.00    80.00    40.00
+     Lower Hem. Trend, Plunge of P,T    260.00     5.00    80.00    85.00
+     B trend, B plunge, Angle:  170.00   0.00  50.00
+
+ P Polarity error at  NS20 NS21 NS22 EW03 BB13
+ P Polarity weights:  0.03 0.00 0.01 0.03 0.10
+  Total P polarity weight is  0.166   Total number:   5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     55.00   170.00    90.00
+     Dip,Strike,Rake     35.00   350.00    90.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    260.00    55.00    80.00    35.00
+     Lower Hem. Trend, Plunge of P,T    260.00    10.00    80.00    80.00
+     B trend, B plunge, Angle:  170.00   0.00  55.00
+
+ P Polarity error at  BB11 NS20 NS21 EW03 BB13
+ P Polarity weights:  0.00 0.04 0.01 0.02 0.07
+  Total P polarity weight is  0.154   Total number:   5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.18   165.82    83.48
+     Dip,Strike,Rake     40.26   355.93    97.75   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    265.93    49.74    75.82    39.82
+     Lower Hem. Trend, Plunge of P,T    260.44     4.98    35.11    82.93
+     B trend, B plunge, Angle:  170.00   5.00  50.00
+
+ P Polarity error at  NS22 EW03 BB13
+ P Polarity weights:  0.04 0.01 0.16
+  Total P polarity weight is  0.199   Total number:   3
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     55.15   166.51    83.90
+     Dip,Strike,Rake     35.31   357.10    98.67   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    267.10    54.69    76.51    34.85
+     Lower Hem. Trend, Plunge of P,T    260.88     9.96    53.70    78.83
+     B trend, B plunge, Angle:  170.00   5.00  55.00
+
+ P Polarity error at  NS20 NS22 EW03 BB13
+ P Polarity weights:  0.02 0.03 0.00 0.13
+  Total P polarity weight is  0.172   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     60.13   167.12    84.23
+     Dip,Strike,Rake     30.38   358.58    99.92   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    268.58    59.62    77.12    29.87
+     Lower Hem. Trend, Plunge of P,T    261.34    14.94    61.98    74.21
+     B trend, B plunge, Angle:  170.00   5.00  60.00
+
+ P Polarity error at  NS20 NS21 NS22 BB13
+ P Polarity weights:  0.04 0.00 0.01 0.09
+  Total P polarity weight is  0.146   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.18   170.82    83.48
+     Dip,Strike,Rake     40.26     0.93    97.75   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    270.93    49.74    80.82    39.82
+     Lower Hem. Trend, Plunge of P,T    265.44     4.98    40.11    82.93
+     B trend, B plunge, Angle:  175.00   5.00  50.00
+
+ P Polarity error at  NS20 NS21 NS22 EW03 BB13
+ P Polarity weights:  0.05 0.01 0.00 0.02 0.11
+  Total P polarity weight is  0.195   Total number:   5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     55.15   171.51    83.90
+     Dip,Strike,Rake     35.31     2.10    98.67   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    272.10    54.69    81.51    34.85
+     Lower Hem. Trend, Plunge of P,T    265.88     9.96    58.70    78.83
+     B trend, B plunge, Angle:  175.00   5.00  55.00
+
+ P Polarity error at  NS20 NS21 EW03 BB13
+ P Polarity weights:  0.08 0.03 0.01 0.07
+  Total P polarity weight is  0.198   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     45.22   340.02    82.95
+     Dip,Strike,Rake     45.22   169.98    97.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     79.98    44.78   250.02    44.78
+     Lower Hem. Trend, Plunge of P,T    255.00     0.00   165.00    85.00
+     B trend, B plunge, Angle:  345.00   5.00  45.00
+
+ P Polarity error at  BB11 NS20 EW01 NS22 GALA EW03 BB13
+ P Polarity weights:  0.00 0.01 0.03 0.01 0.01 0.06 0.08
+  Total P polarity weight is  0.193   Total number:   7
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.18   340.82    83.48
+     Dip,Strike,Rake     40.26   170.93    97.75   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     80.93    49.74   250.82    39.82
+     Lower Hem. Trend, Plunge of P,T     75.44     4.98   210.11    82.93
+     B trend, B plunge, Angle:  345.00   5.00  50.00
+
+ P Polarity error at  NS20 EW01 NS22 GALA EW03 BB13
+ P Polarity weights:  0.01 0.02 0.01 0.01 0.07 0.08
+  Total P polarity weight is  0.197   Total number:   6
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     45.22   345.02    82.95
+     Dip,Strike,Rake     45.22   174.98    97.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     84.98    44.78   255.02    44.78
+     Lower Hem. Trend, Plunge of P,T    260.00     0.00   170.00    85.00
+     B trend, B plunge, Angle:  350.00   5.00  45.00
+
+ P Polarity error at  NS20 NS21 NS23 EW03 BB13
+ P Polarity weights:  0.04 0.02 0.00 0.08 0.06
+  Total P polarity weight is  0.199   Total number:   5
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     60.50   166.67    78.49
+     Dip,Strike,Rake     31.47     9.13   109.43   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    279.13    58.53    76.67    29.50
+     Lower Hem. Trend, Plunge of P,T    265.06    14.77    49.45    72.04
+     B trend, B plunge, Angle:  172.39  10.00  60.00
+
+ P Polarity error at  NS20 NS21 NS22 BB13
+ P Polarity weights:  0.05 0.00 0.02 0.11
+  Total P polarity weight is  0.178   Total number:   4
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are  15 acceptable solutions

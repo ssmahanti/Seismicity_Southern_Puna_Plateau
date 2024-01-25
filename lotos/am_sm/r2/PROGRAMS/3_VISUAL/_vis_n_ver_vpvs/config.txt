@@ -1,0 +1,34 @@
+         240         200
+ _______ Size of the picture in pixels (nx,ny)
+           0   78.13097    
+ _______ Physical coordinates along X (xmin,xmax)
+  -60.00000       5.000000    
+ _______ Physical coordinates along Y (ymin,ymax)
+   20.00000       20.00000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\PICS\DAT_TEST\SYN_AN01\IT1\ver_dv1 1.png
+ _______ Path of the output picture
+ P anomalies, section=1A - 1B
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           1
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\FIG_files\vert\ver_11 1.grd
+ _______ Location of the GRD file
+blue_red.scl        
+ _______ Scale for visualization
+  -10.00000       10.00000    
+ _______ scale diapason
+********************************************
+           3
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\FIG_files\vert\ztr 1.dat
+ _______ Location of the DAT file
+           1
+ _______ Symbol (1: circle, 2: square)
+           4
+ _______ Size of dots in pixels
+         250           0           0
+ _______ RGB color

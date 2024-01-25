@@ -1,0 +1,15 @@
+  Tue Oct 17 13:57:08 2023 for program Focmec
+ Event 8703270729 4 UW errors max
+ Input from a file puna_200803041224_p.inp
+ 200803041224
+ Including emergent polarity picks
+ Polarities/Errors:  P 050/00  SV 000/00  SH 000/00
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+    Dip   Strike   Rake    Pol: P     SV    SH
+   54.07  302.54  -37.45       0.00  0.00  0.00
+   60.00  307.03  -35.26       0.00  0.00  0.00
+   56.17  311.26  -22.76       0.00  0.00  0.00
+   62.97  311.37  -30.68       0.00  0.00  0.00

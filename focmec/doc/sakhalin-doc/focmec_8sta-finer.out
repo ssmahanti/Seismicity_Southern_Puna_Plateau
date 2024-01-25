@@ -1,0 +1,18 @@
+  Sat Sep  9 15:22:14 2017 for program Focmec
+ Sakhalin:  8 BB  0.2 pol errors 1 rat err:  0.16 cut-off finer
+ Input from a file focmec_8sta.inp
+ 12-MAY-90 Sakhalin Island event:  161221 disp picks
+   8 P Pol.  7 SV Pol.  8 SH Pol.  0.0 allowed (weighted) errors
+ 11 ratios, maximum of  0 with |o-c| diff >  0.1300    Focus VP/VS: 1.8225
+For ratios,  0.100 = P radiation cutoff  0.100 = S radiation cutoff
+ FLAG is NUM, DEN, N&D if n, d, both below curoff
+ If FLAG N&D, total ratios used decreased by 1
+ R Ac/Tot: # acceptable / total ratios minus M&D
+ RMS Err: RMS of acceptable obs ratios
+ AbsMaxDiff: max abs difference for ok solutions
+ The minimum, increment and maximum B axis trend:     0.00    1.00  359.00
+ The limits for the B axis plunge:     0.00    1.00   90.00
+ The limits for Angle:     0.00    1.00  179.00
+    Dip   Strike   Rake    Pol: P     SV    SH  AccR/TotR  RMS RErr  AbsMaxDiff
+   79.05   62.39  -65.53       0.00  0.00  0.00    11/11    0.0857    0.1215
+   79.14   62.56  -64.51       0.00  0.00  0.00    11/11    0.0871    0.1219

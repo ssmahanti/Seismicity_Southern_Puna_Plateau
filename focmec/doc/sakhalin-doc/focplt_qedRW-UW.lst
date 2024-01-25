@@ -1,0 +1,285 @@
+  Thu Sep  7 17:29:41 2017 for program Focplt
+ Input from file focmec_qed.inp
+      
+ Statn  Azimuth  TOAngl  Key  Log10 Ratio     Pol  TOAng2  Comment
+YSS   164.20  154.95D
+PET    63.01   91.60C
+MAT   193.49   86.18D
+TSRJ  200.01   81.69D
+YONJ  207.27   79.12D
+WKYJ  199.82   78.29C
+SHK   208.59   77.31C
+TKSJ  204.05   77.09C
+SHNJ  212.21   75.64C
+TIK   349.67   65.79D
+IRK   292.13   65.26D
+ILT    31.71   62.50D
+LZH   259.28   60.31D
+GUMO  174.99   57.31C
+BAG   215.52   56.59C
+DAV   203.64   52.55C
+LOE   240.11   51.72D
+CHG   244.25   51.31D
+FRU   288.85   51.27D
+NST   240.39   50.09D
+DSH   287.53   47.30D
+APA   332.50   47.18D
+NDI   272.24   46.87D
+DAG   354.58   46.17C
+LAT   173.84   45.07C
+PGC    51.11   43.52C
+QUE   280.82   43.39D
+PMG   173.89   43.37C
+MCW    50.78   43.34D
+OBN   319.65   43.10D
+GMW    51.77   42.94D
+HYB   261.54   42.65D
+PNT    48.61   42.63D
+BMW    52.94   42.62C
+RMW    51.34   42.56C
+EDM    42.20   42.43D
+LON    51.97   42.27D
+SHW    52.67   42.17C
+DPW    49.13   41.60D
+GDH     6.19   41.48C
+NEW    48.25   41.44C
+VGB    52.48   41.44D
+POO   266.14   41.30D
+BOM   267.22   41.04D
+MTN   191.85   41.02C
+SES    43.39   40.64D
+FFC    35.56   40.25D
+AKU   350.97   39.63D
+BKR   304.99   39.57D
+HRY    46.69   39.25D
+ORV    57.76   39.23D
+KNA   193.89   39.07C
+LRM    47.71   39.06D
+LCCM   47.38   38.89D
+BGMT   47.93   38.70D
+REY   352.32   38.57D
+CMB    58.27   38.30D
+SIM   312.81   38.17D
+COP   331.73   38.08C
+IMW    48.30   37.94D
+PTI    49.88   37.92D
+CTA   175.59   37.33C
+WB5   187.58   37.32C
+BCH    60.25   37.22D
+CLI   317.82   37.20C
+BW06   48.31   37.18D
+QIS   182.28   37.11C
+KRA   324.25   37.04D
+DUG    52.10   37.03D
+UZH   322.02   36.94D
+CFR   316.38   36.88D
+BRN   329.40   36.83D
+VRI   317.67   36.83D
+SPC   323.53   36.78D
+DAU    51.00   36.74D
+KSP   326.76   36.70D
+TLB   316.05   36.58C
+MLR   317.87   36.45D
+RSSD   44.13   36.36D
+CLL   328.86   36.31D
+PSN   315.35   36.30D
+BRG   328.08   36.29D
+MSU    52.91   36.27C
+CMP   318.25   36.22C
+WIT   333.22   35.99D
+PEC    59.33   35.96D
+SRO   323.78   35.88D
+DRA   318.33   35.85D
+MOX   329.27   35.84D
+GZR   319.66   35.81D
+ZST   324.71   35.80D
+VKA   325.20   35.67D
+WTS   332.72   35.64D
+BZS   320.49   35.64C
+TIM   320.80   35.60D
+KHC   327.29   35.53D
+MBL   201.54   35.51C
+PVL   316.74   35.50D
+JMB   315.50   35.49D
+DBN   333.70   35.46D
+KMR   326.36   35.23D
+NDE   142.51   35.21C
+DIM   315.87   35.14D
+GOL    47.88   35.09D
+GLD    47.76   35.07D
+ENN   332.61   35.05D
+PGB   317.02   35.05D
+SCH    16.81   35.01D
+MEM   332.48   35.00D
+PLD   316.41   35.00D
+KRO   142.76   34.92C
+BHG   326.91   34.91D
+VTS   317.64   34.88D
+UCC   333.54   34.86D
+RZN   316.14   34.86D
+FUR   328.11   34.83D
+VUN   143.89   34.81C
+PTJ   324.04   34.74D
+DOU   333.06   34.62D
+KKB   317.26   34.61D
+SQTA  327.64   34.47D
+QLP   177.82   34.36C
+SKO   318.35   34.33D
+VAY   317.25   34.32D
+RMO    28.01   30.96C
+SLE   329.57   34.28D
+ADI   303.81   34.27D
+SAX   328.79   34.20D
+ZLA   329.49   34.15D
+OSS   328.01   34.10D
+MML   303.25   34.09D
+LLS   328.80   33.99D
+VDL   328.32   33.90D
+OHR   318.24   33.86D
+BRS   170.06   33.66D
+TMA   328.49   33.61D
+MMK   329.03   33.38D
+DIX   329.39   33.25D
+EMS   329.68   33.13D
+PRNI  302.14   32.99D
+MEKA  201.26   32.70C
+MBH   301.85   32.67D
+HLW   304.32   31.71D
+MEO    46.52   31.43D
+CMS   176.58   31.65C
+FORR  191.99   31.55C
+CBM    20.31   31.36C
+MRWA  202.71   31.23C
+COOL  197.92   31.05C
+ETER  330.59   30.85D
+BAL   201.72   30.76C
+RIV   172.23   30.56D
+ECRI  334.37   30.15D
+ADE   182.62   30.06C
+MUN   201.74   29.98C
+EMON  337.98   29.88D
+KCHT  323.28   29.79D
+CNB   173.86   29.78D
+SBS   322.89   29.75D
+ESEL  329.45   29.68D
+NWAO  200.63   29.65C
+ZGN   322.81   29.57D
+STS   338.64   29.55D
+ERUA  337.49   29.51D
+ETOR  333.35   29.49D
+RSCP   37.03   29.23D
+GUD   334.77   29.22D
+ECHE  332.10   29.21D
+TOO   177.13   29.09C
+TOL   334.41   29.04D
+ACU   331.27   28.99D
+EPLA  335.94   28.94D
+EVIA  332.83   28.89D
+ARO   284.29   28.88D
+EALH  331.74   28.84D
+EBAN  333.58   28.78D
+JSC    34.50   28.78C
+ENIJ  331.98   28.78D
+EHOR  334.53   28.76D
+AFC   333.07   28.75D
+LIS   337.73   28.73D
+EVAL  335.57   28.65D
+EPRU  334.22   28.62D
+EJIF  334.21   28.50D
+CFTV  338.64   27.06D
+BUL   273.59   11.06C
+SBA   173.55   10.97C
+ARE    51.62   10.55C
+SPA   180.00   10.46C
+LPB    47.48   10.42C
+ Plotting P nodal planes
+ 
+  Solutions input from file focmec_qedRW.out
+   Fri Jun  2 10:19:50 2017 for program Focmec
+  Sakhalin: NEIC/QED 190 stations 6.4 errors with relative weighting
+  Input from a file focmec_qed.inp
+   12-MAY-90 Sakhalin Island Event:  NEIC/QED (11-JUNE-90)
+  Including emergent polarity picks
+  Polarities/Errors:  P 199/ 6.4  SV 000/ 0.0  SH 000/ 0.0
+  There are no amplitude ratio data
+  The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+  The limits for the B axis plunge:     0.00    5.00   90.00
+  The limits for Angle:     0.00    5.00  175.00
+ 
+     Dip,Strike,Rake     60.13   295.77     2.88
+     Dip,Strike,Rake     87.50   204.33   150.10   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    114.33     2.50   205.77    29.87
+     Lower Hem. Trend & Plunge of B     20.00    60.00
+     Lower Hem. Trend, Plunge of P,T    254.00    18.74   155.91    22.52
+     MRR = 0.04  MTT = 0.64  MPP =-0.69  MRT =-0.24  MRP =-0.44  MTP = 0.56
+     Dip,Strike,Rake     60.13   294.23    -2.88
+     Dip,Strike,Rake     87.50    25.67  -150.10   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    295.67     2.50   204.23    29.87
+     Lower Hem. Trend & Plunge of B     30.00    60.00
+     Lower Hem. Trend, Plunge of P,T    254.09    22.52   156.00    18.74
+     MRR =-0.04  MTT = 0.68  MPP =-0.64  MRT =-0.18  MRP =-0.46  MTP = 0.56
+     Dip,Strike,Rake     60.50   298.49    -5.73
+     Dip,Strike,Rake     85.01    31.32  -150.38   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    301.32     4.99   208.49    29.50
+     Lower Hem. Trend & Plunge of B     40.01    60.00
+     Lower Hem. Trend, Plunge of P,T    258.96    24.18   161.23    16.66
+     MRR =-0.09  MTT = 0.79  MPP =-0.71  MRT =-0.19  MRP =-0.46  MTP = 0.44
+     Dip,Strike,Rake     65.41   294.99    -4.63
+     Dip,Strike,Rake     85.79    26.92  -155.34   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    296.92     4.21   204.99    24.59
+     Lower Hem. Trend & Plunge of B     36.00    65.00
+     Lower Hem. Trend, Plunge of P,T    253.69    20.25   158.40    14.02
+     MRR =-0.06  MTT = 0.74  MPP =-0.68  MRT =-0.13  MRP =-0.40  MTP = 0.56
+ Plotting P nodal planes
+ 
+  Solutions input from file focmec_qedUW.out
+   Fri Jun  2 12:00:02 2017 for program Focmec
+  Sakhalin: NEIC/QED 190 stations 22 errors including emergent arriv.
+  Input from a file focmec_qed.inp
+   12-MAY-90 Sakhalin Island Event:  NEIC/QED (11-JUNE-90)
+  Including emergent polarity picks
+  Polarities/Errors:  P 199/22  SV 000/00  SH 000/00
+  There are no amplitude ratio data
+  The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+  The limits for the B axis plunge:     0.00    5.00   90.00
+  The limits for Angle:     0.00    5.00  175.00
+ 
+     Dip,Strike,Rake     58.68   308.43    16.48
+     Dip,Strike,Rake     75.98   209.69   147.60   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    119.69    14.02   218.43    31.32
+     Lower Hem. Trend & Plunge of B      8.79    55.00
+     Lower Hem. Trend, Plunge of P,T    262.18    11.32   164.82    32.61
+     MRR = 0.25  MTT = 0.64  MPP =-0.90  MRT =-0.41  MRP =-0.31  MTP = 0.31
+     Dip,Strike,Rake     60.22   313.96    19.30
+     Dip,Strike,Rake     73.33   214.09   148.77   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    124.09    16.67   223.96    29.78
+     Lower Hem. Trend & Plunge of B      8.77    55.00
+     Lower Hem. Trend, Plunge of P,T    266.40     8.53   170.67    33.64
+     MRR = 0.28  MTT = 0.67  MPP =-0.96  MRT =-0.45  MRP =-0.22  MTP = 0.17
+     Dip,Strike,Rake     61.98   319.30    21.88
+     Dip,Strike,Rake     70.79   218.62   150.17   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    128.62    19.21   229.30    28.02
+     Lower Hem. Trend & Plunge of B      8.77    55.00
+     Lower Hem. Trend, Plunge of P,T    270.56     5.71   176.63    34.39
+     MRR = 0.31  MTT = 0.68  MPP =-0.99  MRT =-0.47  MRP =-0.13  MTP = 0.03
+     Dip,Strike,Rake     57.39   311.52    13.47
+     Dip,Strike,Rake     78.68   214.16   146.66   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    124.16    11.32   221.52    32.61
+     Lower Hem. Trend & Plunge of B     17.56    55.00
+     Lower Hem. Trend, Plunge of P,T    266.66    14.02   167.91    31.32
+     MRR = 0.21  MTT = 0.69  MPP =-0.91  MRT =-0.42  MRP =-0.33  MTP = 0.20
+     Dip,Strike,Rake     58.68   317.21    16.48
+     Dip,Strike,Rake     75.98   218.47   147.60   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    128.47    14.02   227.21    31.32
+     Lower Hem. Trend & Plunge of B     17.57    55.00
+     Lower Hem. Trend, Plunge of P,T    270.96    11.32   173.60    32.61
+     MRR = 0.25  MTT = 0.70  MPP =-0.95  MRT =-0.45  MRP =-0.24  MTP = 0.06
+ Plotting P nodal planes
+ 
+ 
+     Dip,Strike,Rake     59.08   313.87    13.07
+     Dip,Strike,Rake     78.81   217.07   148.41   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    127.07    11.19   223.87    30.92
+     Lower Hem. Trend & Plunge of B     19.56    56.68
+     Lower Hem. Trend, Plunge of P,T    268.87    13.07   171.16    30.03
+     MRR = 0.20  MTT = 0.73  MPP =-0.93  MRT =-0.42  MRP =-0.29  MTP = 0.13

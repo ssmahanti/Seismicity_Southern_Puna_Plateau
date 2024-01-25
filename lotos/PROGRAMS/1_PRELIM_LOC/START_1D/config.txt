@@ -1,0 +1,122 @@
+         500         500
+ _______ Size of the picture in pixels (nx,ny)
+   2.000000       9.000000    
+ _______ Physical coordinates along X (xmin,xmax)
+  -75.00000      0.0000000E+00
+ _______ Physical coordinates along Y (ymin,ymax)
+  0.5000000       10.00000    
+ _______ Spacing of ticks on axes (dx,dy)
+..\..\..\PICS\GEO_DAT1\SMILE_01\1D_mod.png
+ _______ Path of the output picture
+ 1D models: green - true, grey - starting, red - final, thin - intermediate
+ _______ Title of the plot on the upper axe
+           1
+ _______ Number of layers
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref_true.bln
+ _______ Location of the BLN file
+           4
+ _______ Thickness of line in pixels
+           0         250           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref_start.bln
+ _______ Location of the BLN file
+           4
+ _______ Thickness of line in pixels
+         130         130         130
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref1.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref2.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref3.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref4.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref5.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref6.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref7.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref8.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref9.bln
+ _______ Location of the BLN file
+           1
+ _______ Thickness of line in pixels
+           0           0           0
+ _______ RGB color
+********************************************
+           2
+ _______ Key of the layer (1: contour, 2: line, 3:dots)
+..\..\..\TMP_files\1D_mod\ref_final.bln
+ _______ Location of the BLN file
+           4
+ _______ Thickness of line in pixels
+         250           0           0
+ _______ RGB color

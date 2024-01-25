@@ -1,0 +1,53 @@
+  Tue Oct 24 13:18:22 2023 for program Focplt
+ Input from file puna_20090422238_p.inp
+     2
+ Statn  Azimuth  TOAngl  Key  Log10 Ratio     Pol  TOAng2  Comment
+EW07  210.36  116.00C
+BB15  211.91   96.74C
+BB13  212.42   92.70D
+EW06  224.88  115.27C
+BB11  242.08   93.73+
+NS14  242.42   90.71+
+EW05  244.95  109.86C
+EW04  250.17  102.54C
+EW03  252.14   97.15C
+NS10  254.25   90.99+
+BB02  255.18   50.29+
+EW02  260.16   96.37C
+EW01  262.09   94.29C
+NS04  277.43   92.11D
+NS03  281.41   91.84-
+NS02  285.62   91.65-
+NS01  289.27   91.51-
+NS20  295.83   91.45D
+NS21  300.17   91.50-
+NS22  303.32   91.43-
+NS23  306.93   91.36-
+GALA  307.32   92.65-
+NS24  309.04   91.21-
+NS25  311.29   91.14D
+BB21  355.63   94.04D
+BB17  356.65  100.64D
+BB16  204.75  170.11C
+EW22  158.08  113.35D
+EW08  170.58  116.08C
+ Plotting P nodal planes
+ 
+  Solutions input from file output_20090422238_uw.out
+   Tue Oct 24 13:18:22 2023 for program Focmec
+  Event 8703270729 4 UW errors max
+  Input from a file puna_20090422238_p.inp
+  20090422238
+  Including emergent polarity picks
+  Polarities/Errors:  P 029/00  SV 000/00  SH 000/00
+  There are no amplitude ratio data
+  The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+  The limits for the B axis plunge:     0.00    5.00   90.00
+  The limits for Angle:     0.00    5.00  175.00
+ 
+     Dip,Strike,Rake     31.61   217.86    49.26
+     Dip,Strike,Rake     66.60    83.18   111.88   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    353.18    23.40   127.86    58.39
+     Lower Hem. Trend & Plunge of B    254.12    20.00
+     Lower Hem. Trend, Plunge of P,T    157.03    18.75    27.35    62.01
+     MRR = 0.68  MTT =-0.59  MPP =-0.09  MRT = 0.65  MRP =-0.07  MTP =-0.41

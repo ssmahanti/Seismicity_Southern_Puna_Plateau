@@ -1,0 +1,365 @@
+  Mon Oct 23 12:45:13 2023 for program Focmec
+ Event 8703270729 4 UW errors max
+ Input from a file puna_200908170113_p.inp
+ 200908170113
+
+ Statn  Azimuth    TOA   Key  Log10 Ratio  NumPol  DenTOA  Comment
+  NS18   192.4     98.7   -                                IP
+ Including emergent polarity picks
+  NS16   201.3    108.0   D                                IP
+  NS14   222.5    112.1   D                                IP
+  BB24   222.4     96.8   -                                IP
+  NS13   246.6    112.5   D                                IP
+  BB25   247.0     94.9   -                                IP
+  BB01   250.9     99.7   D                                IP
+  NS12   267.1    115.6   D                                IP
+  BB02   280.4    101.3   D                                IP
+  EW16   296.4     97.1   -                                IP
+  NS10   308.7    115.9   U                                IP
+  NS04     7.8     97.2   +                                IP..
+  EW10    15.7     99.7   D                                IP
+  EW01    40.1    100.2   D                                IP
+  EW03    60.5     98.4   D                                IP
+  EW06    73.1     93.6   D                                IP
+  EW08    79.7     79.9   -                                IP..
+  BB11    77.5    104.3   D                                IP
+  BB15    97.6     95.4   D                                IP
+  BB13   119.4     96.4   D                                IP
+ Polarities/Errors:  P 020/00  SV 000/00  SH 000/00
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     26.81   339.58    67.35
+     Dip,Strike,Rake     65.41   184.63   101.01   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     94.63    24.59   249.58    63.19
+     Lower Hem. Trend, Plunge of P,T    266.38    19.68   115.51    67.73
+     B trend, B plunge, Angle:    0.00  10.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     31.47   343.26    70.57
+     Dip,Strike,Rake     60.50   185.73   101.51   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.73    29.50   253.26    58.53
+     Lower Hem. Trend, Plunge of P,T    267.34    14.77   122.95    72.04
+     B trend, B plunge, Angle:    0.00  10.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     36.22   346.07    72.91
+     Dip,Strike,Rake     55.61   186.93   102.15   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     96.93    34.39   256.07    53.78
+     Lower Hem. Trend, Plunge of P,T    268.25     9.85   134.56    75.89
+     B trend, B plunge, Angle:    0.00  10.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     28.90   330.97    57.62
+     Dip,Strike,Rake     65.91   186.88   106.47   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     96.88    24.09   240.97    61.10
+     Lower Hem. Trend, Plunge of P,T    264.62    19.29   125.42    65.19
+     B trend, B plunge, Angle:    0.00  15.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     33.23   335.85    61.81
+     Dip,Strike,Rake     61.12   188.50   107.19   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     98.50    28.88   245.85    56.77
+     Lower Hem. Trend, Plunge of P,T    266.03    14.48   134.01    68.91
+     B trend, B plunge, Angle:    0.00  15.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     46.92   335.20    69.25
+     Dip,Strike,Rake     46.92   184.23   110.75   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     94.23    43.08   245.20    43.08
+     Lower Hem. Trend, Plunge of P,T    259.71     0.00   169.71    75.00
+     B trend, B plunge, Angle:  349.71  15.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     37.70   334.57    64.96
+     Dip,Strike,Rake     56.36   185.13   108.11   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.13    33.64   244.57    52.30
+     Lower Hem. Trend, Plunge of P,T    262.24     9.66   140.59    72.04
+     B trend, B plunge, Angle:  354.86  15.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     42.27   337.71    67.37
+     Dip,Strike,Rake     51.62   187.11   109.28   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     97.11    38.38   247.71    47.73
+     Lower Hem. Trend, Plunge of P,T    263.56     4.83   156.18    74.21
+     B trend, B plunge, Angle:  354.86  15.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     31.61   323.74    49.26
+     Dip,Strike,Rake     66.60   189.06   111.88   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     99.06    23.40   233.74    58.39
+     Lower Hem. Trend, Plunge of P,T    262.90    18.75   133.22    62.01
+     B trend, B plunge, Angle:    0.00  20.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     71.25   305.26    68.83
+     Dip,Strike,Rake     27.99   175.57   136.78   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     85.57    62.01   215.26    18.75
+     Lower Hem. Trend, Plunge of P,T     51.41    23.40   186.09    58.39
+     B trend, B plunge, Angle:  312.35  20.00  70.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     66.60   313.88    68.12
+     Dip,Strike,Rake     31.61   179.20   130.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     89.20    58.39   223.88    23.40
+     Lower Hem. Trend, Plunge of P,T     60.04    18.75   189.72    62.01
+     B trend, B plunge, Angle:  322.94  20.00  65.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     61.98   317.07    67.20
+     Dip,Strike,Rake     35.53   178.88   126.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     88.88    54.47   227.07    28.02
+     Lower Hem. Trend, Plunge of P,T     63.47    14.08   186.31    65.19
+     B trend, B plunge, Angle:  328.24  20.00  60.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     57.39   320.06    66.04
+     Dip,Strike,Rake     39.67   179.56   122.40   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     89.56    50.33   230.06    32.61
+     Lower Hem. Trend, Plunge of P,T     66.98     9.39   180.80    67.73
+     B trend, B plunge, Angle:  333.53  20.00  55.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     52.84   322.81    64.59
+     Dip,Strike,Rake     43.96   181.00   119.52   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     91.00    46.04   232.81    37.16
+     Lower Hem. Trend, Plunge of P,T     70.54     4.70   173.17    69.41
+     B trend, B plunge, Angle:  338.82  20.00  50.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     48.36   325.24    62.76
+     Dip,Strike,Rake     48.36   183.00   117.24   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     93.00    41.64   235.24    41.64
+     Lower Hem. Trend, Plunge of P,T    254.12     0.00   164.12    70.00
+     B trend, B plunge, Angle:  344.12  20.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     43.96   327.24    60.48
+     Dip,Strike,Rake     52.84   185.42   115.41   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.42    37.16   237.24    46.04
+     Lower Hem. Trend, Plunge of P,T    257.70     4.70   155.06    69.41
+     B trend, B plunge, Angle:  349.41  20.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     35.53   324.06    53.95
+     Dip,Strike,Rake     61.98   185.88   112.80   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.88    28.02   234.06    54.47
+     Lower Hem. Trend, Plunge of P,T    259.47    14.08   136.63    65.19
+     B trend, B plunge, Angle:  354.71  20.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     39.67   328.67    57.60
+     Dip,Strike,Rake     57.39   188.17   113.96   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     98.17    32.61   238.67    50.33
+     Lower Hem. Trend, Plunge of P,T    261.25     9.39   147.43    67.73
+     B trend, B plunge, Angle:  354.71  20.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     34.78   317.81    42.19
+     Dip,Strike,Rake     67.48   191.15   117.23   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    101.15    22.52   227.81    55.22
+     Lower Hem. Trend, Plunge of P,T    261.26    18.06   139.26    58.39
+     B trend, B plunge, Angle:    0.00  25.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     71.94   301.41    63.61
+     Dip,Strike,Rake     31.61   179.42   143.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     89.42    58.39   211.41    18.06
+     Lower Hem. Trend, Plunge of P,T     51.30    22.52   177.97    55.22
+     B trend, B plunge, Angle:  310.15  25.00  70.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     67.48   304.54    62.77
+     Dip,Strike,Rake     34.78   177.88   137.81   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     87.88    55.22   214.54    22.52
+     Lower Hem. Trend, Plunge of P,T     54.44    18.06   176.43    58.39
+     B trend, B plunge, Angle:  315.69  25.00  65.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     63.05   313.06    61.70
+     Dip,Strike,Rake     38.29   182.97   133.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     92.97    51.71   223.06    26.95
+     Lower Hem. Trend, Plunge of P,T     63.23    13.57   179.14    61.10
+     B trend, B plunge, Angle:  326.77  25.00  60.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     58.68   315.82    60.35
+     Dip,Strike,Rake     42.06   183.42   129.11   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     93.42    47.94   225.82    31.32
+     Lower Hem. Trend, Plunge of P,T     66.57     9.05   174.95    63.19
+     B trend, B plunge, Angle:  332.31  25.00  55.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     54.37   318.32    58.67
+     Dip,Strike,Rake     46.03   184.58   125.96   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     94.58    43.97   228.32    35.63
+     Lower Hem. Trend, Plunge of P,T     69.96     4.53   169.54    64.54
+     B trend, B plunge, Angle:  337.85  25.00  50.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     46.03   316.65    54.04
+     Dip,Strike,Rake     54.37   182.91   121.33   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     92.91    35.63   226.65    43.97
+     Lower Hem. Trend, Plunge of P,T    251.27     4.53   151.69    64.54
+     B trend, B plunge, Angle:  343.38  25.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     50.14   320.47    56.60
+     Dip,Strike,Rake     50.14   186.29   123.40   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     96.29    39.86   230.47    39.86
+     Lower Hem. Trend, Plunge of P,T    253.38     0.00   163.38    65.00
+     B trend, B plunge, Angle:  343.38  25.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     42.06   317.81    50.89
+     Dip,Strike,Rake     58.68   185.41   119.65   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.41    31.32   227.81    47.94
+     Lower Hem. Trend, Plunge of P,T    254.66     9.05   146.28    63.19
+     B trend, B plunge, Angle:  348.92  25.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     46.03   322.19    54.04
+     Dip,Strike,Rake     54.37   188.45   121.33   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     98.45    35.63   232.19    43.97
+     Lower Hem. Trend, Plunge of P,T    256.81     4.53   157.23    64.54
+     B trend, B plunge, Angle:  348.92  25.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     34.78   312.28    42.19
+     Dip,Strike,Rake     67.48   185.61   117.23   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.61    22.52   222.28    55.22
+     Lower Hem. Trend, Plunge of P,T    255.72    18.06   133.73    58.39
+     B trend, B plunge, Angle:  354.46  25.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     38.29   318.26    47.00
+     Dip,Strike,Rake     63.05   188.17   118.30   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     98.17    26.95   228.26    51.71
+     Lower Hem. Trend, Plunge of P,T    258.00    13.57   142.09    61.10
+     B trend, B plunge, Angle:  354.46  25.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     68.53   300.42    57.50
+     Dip,Strike,Rake     38.29   180.55   143.80   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     90.55    51.71   210.42    21.47
+     Lower Hem. Trend, Plunge of P,T     53.86    17.23   169.60    54.47
+     B trend, B plunge, Angle:  313.55  30.00  65.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     64.34   303.25    56.31
+     Dip,Strike,Rake     41.41   180.25   139.11   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     90.25    48.59   213.25    25.66
+     Lower Hem. Trend, Plunge of P,T     56.99    12.95   167.54    56.77
+     B trend, B plunge, Angle:  319.35  30.00  60.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     60.22   305.87    54.82
+     Dip,Strike,Rake     44.81   180.69   135.19   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     90.69    45.19   215.87    29.78
+     Lower Hem. Trend, Plunge of P,T     60.20     8.65   164.59    58.53
+     B trend, B plunge, Angle:  325.16  30.00  55.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     56.17   308.21    53.00
+     Dip,Strike,Rake     48.44   181.76   131.93   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     91.76    41.56   218.21    33.83
+     Lower Hem. Trend, Plunge of P,T     63.47     4.33   160.89    59.62
+     B trend, B plunge, Angle:  330.97  30.00  50.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     52.24   310.21    50.77
+     Dip,Strike,Rake     52.24   183.34   129.23   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     93.34    37.76   220.21    37.76
+     Lower Hem. Trend, Plunge of P,T    246.77     0.00   156.77    60.00
+     B trend, B plunge, Angle:  336.77  30.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     48.44   311.79    48.07
+     Dip,Strike,Rake     56.17   185.34   127.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.34    33.83   221.79    41.56
+     Lower Hem. Trend, Plunge of P,T    250.08     4.33   152.66    59.62
+     B trend, B plunge, Angle:  342.58  30.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     41.41   307.49    40.89
+     Dip,Strike,Rake     64.34   184.49   123.69   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     94.49    25.66   217.49    48.59
+     Lower Hem. Trend, Plunge of P,T    250.76    12.95   140.20    56.77
+     B trend, B plunge, Angle:  348.39  30.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     44.81   312.86    44.81
+     Dip,Strike,Rake     60.22   187.68   125.18   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     97.68    29.78   222.86    45.19
+     Lower Hem. Trend, Plunge of P,T    253.35     8.65   148.96    58.53
+     B trend, B plunge, Angle:  348.39  30.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     38.29   307.20    36.20
+     Dip,Strike,Rake     68.53   187.32   122.50   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     97.32    21.47   217.20    51.71
+     Lower Hem. Trend, Plunge of P,T    253.88    17.23   138.14    54.47
+     B trend, B plunge, Angle:  354.19  30.00  25.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     41.41   313.30    40.89
+     Dip,Strike,Rake     64.34   190.30   123.69   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    100.30    25.66   223.30    48.59
+     Lower Hem. Trend, Plunge of P,T    256.56    12.95   146.01    56.77
+     B trend, B plunge, Angle:  354.19  30.00  30.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     61.98   301.51    49.48
+     Dip,Strike,Rake     47.85   182.71   140.68   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     92.71    42.15   211.51    28.02
+     Lower Hem. Trend, Plunge of P,T     59.16     8.18   160.48    53.78
+     B trend, B plunge, Angle:  323.39  35.00  55.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     58.23   303.79    47.57
+     Dip,Strike,Rake     51.13   183.85   137.45   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     93.85    38.87   213.79    31.77
+     Lower Hem. Trend, Plunge of P,T     62.36     4.09   158.16    54.69
+     B trend, B plunge, Angle:  329.49  35.00  50.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     54.60   305.76    45.28
+     Dip,Strike,Rake     54.60   185.43   134.72   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     95.43    35.40   215.76    35.40
+     Lower Hem. Trend, Plunge of P,T    245.59     0.00   155.59    55.00
+     B trend, B plunge, Angle:  335.59  35.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     51.13   307.34    42.55
+     Dip,Strike,Rake     58.23   187.40   132.43   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     97.40    31.77   217.34    38.87
+     Lower Hem. Trend, Plunge of P,T    248.82     4.09   153.02    54.69
+     B trend, B plunge, Angle:  341.69  35.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     47.85   308.47    39.32
+     Dip,Strike,Rake     61.98   189.68   130.52   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     99.68    28.02   218.47    42.15
+     Lower Hem. Trend, Plunge of P,T    252.02     8.18   150.71    53.78
+     B trend, B plunge, Angle:  347.80  35.00  35.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     57.20   301.09    40.12
+     Dip,Strike,Rake     57.20   186.55   139.88   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     96.55    32.80   211.09    32.80
+     Lower Hem. Trend, Plunge of P,T    243.82     0.00   153.82    50.00
+     B trend, B plunge, Angle:  333.82  40.00  45.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     54.07   302.91    37.45
+     Dip,Strike,Rake     60.50   188.70   137.61   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     98.70    29.50   212.91    35.93
+     Lower Hem. Trend, Plunge of P,T    247.14     3.83   152.61    49.74
+     B trend, B plunge, Angle:  340.36  40.00  40.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are  47 acceptable solutions

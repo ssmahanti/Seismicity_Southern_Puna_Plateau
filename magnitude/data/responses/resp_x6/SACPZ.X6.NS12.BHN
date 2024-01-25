@@ -1,0 +1,39 @@
+* **********************************
+* NETWORK   (KNETWK): X6
+* STATION    (KSTNM): NS12
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2022-04-05T21:37:37
+* START             : 2007-12-18T14:34:41
+* END               : 2009-12-31T23:59:59
+* DESCRIPTION       : Argentina,Punta del Agua
+* LATITUDE          : -27.228300
+* LONGITUDE         : -67.756798
+* ELEVATION         : 2017.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 50.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp CMG40T/Reftek 130 Datalogger
+* INSTGAIN          : 8.092140e+02 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 5.092600e+08 (M/S)
+* A0                : 5.714180e+08
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-1.486000e-01	+1.486000e-01	
+	-1.486000e-01	-1.486000e-01	
+	-5.027000e+02	+0.000000e+00	
+	-1.005000e+03	+0.000000e+00	
+	-1.131000e+03	+0.000000e+00	
+CONSTANT	2.910003e+17
+
+
+
+

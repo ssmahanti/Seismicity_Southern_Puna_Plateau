@@ -1,0 +1,12 @@
+  total avdv_p=  0.417401373      avdv_s=  0.613111675    
+  total avdv_p=  0.423548251      avdv_s=  0.610885441    
+  total avdv_p=  0.388128668      avdv_s=  0.608086765    
+  total avdv_p=  0.364952266      avdv_s=  0.552049279    
+  total avdv_p=  0.282939732      avdv_s=  0.350642979    
+  total avdv_p=  0.273825675      avdv_s=  0.337521195    
+  total avdv_p=  0.263933539      avdv_s=  0.339368373    
+  total avdv_p=  0.251530588      avdv_s=  0.313770086    
+  iter=           1  dtot_p=  0.302345783      red=   0.00000000    
+  iter=           1  dtot_s=  0.462735772      red=   0.00000000    
+  iter=           2  dtot_p=  0.214968696      red=   28.8997211    
+  iter=           2  dtot_s=  0.298188776      red=   35.5596046    

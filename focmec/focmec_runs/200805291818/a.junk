@@ -1,0 +1,37 @@
+ Upper hemisphere projection?..[N]...............:  Plot polarity data?.............................:  Enter input file name...........................:  200805291818
+ Desired file?..[Y]..............................:  Plot impulsive P polarities?..[Y]...............:  Enter size for impulsive P polarities [0.25]....:  linewidth for impulsive P polarities..[1].......:  Plot emergent P polarities?...[N]...............:  Enter size for emergent P polarities [0.15].....:  linewidth for emergent P polarities..[1]........:  linewidth for circle outline..[2]...............:  Add a title?..[Y]...............................:  Include time & file name?..[Y]..................:  Add more data to plot?..[N].....................:  Plot focal mechanism solutions?..[Y]............:  Print/display solution summaries?..[N]..........:   Can plot P, SV & SH nodal surfaces or P, T & B axes
+  If you want to superimpose both, answer yes to more
+ Plot P, T and B axes?  [Y]......................:  P nodal planes..[Y].............................:  Dashed line?..[N]...............................:  Enter linewidth for solutions..[1]..............:  Solutions on same plot as data?..[Y]............:  Input solutions from a file?..[Y]...............:  Input file name.................................:   Event 8703270729 4 UW errors max
+ Correct file?  [Y]..............................:  Plot time & file name?..[Y].....................:      Dip,Strike,Rake     45.86   312.47    -9.85
+     Dip,Strike,Rake     82.95    49.36  -135.43   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    319.36     7.05   222.47    44.14
+     Lower Hem. Trend & Plunge of B     56.47    45.00
+     Lower Hem. Trend, Plunge of P,T    281.19    35.40   172.81    23.93
+     MRR =-0.17  MTT = 0.80  MPP =-0.63  MRT =-0.46  MRP =-0.51  MTP =-0.02
+     Dip,Strike,Rake     50.73   311.82    -8.29
+     Dip,Strike,Rake     83.59    47.09  -140.43   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    317.09     6.41   221.82    39.27
+     Lower Hem. Trend & Plunge of B     54.78    50.00
+     Lower Hem. Trend, Plunge of P,T    277.21    31.77   172.99    21.63
+     MRR =-0.14  MTT = 0.84  MPP =-0.70  MRT =-0.40  MRP =-0.49  MTP = 0.01
+     Dip,Strike,Rake     56.36   313.35   -10.27
+     Dip,Strike,Rake     81.46    49.08  -145.93   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    319.08     8.54   223.35    33.64
+     Lower Hem. Trend & Plunge of B     61.46    55.00
+     Lower Hem. Trend, Plunge of P,T    276.64    29.78   176.77    16.66
+     MRR =-0.16  MTT = 0.90  MPP =-0.74  MRT =-0.32  MRP =-0.44  MTP =-0.03
+     Dip,Strike,Rake     61.12   312.81    -8.50
+     Dip,Strike,Rake     82.56    46.94  -150.85   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    316.94     7.44   222.81    28.88
+     Lower Hem. Trend & Plunge of B     60.00    60.00
+     Lower Hem. Trend, Plunge of P,T    273.69    25.66   176.57    14.48
+     MRR =-0.13  MTT = 0.93  MPP =-0.81  MRT =-0.27  MRP =-0.40  MTP = 0.00
+     Dip,Strike,Rake     63.05   311.70   -13.71
+     Dip,Strike,Rake     77.80    48.01  -152.38   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    318.01    12.20   221.70    26.95
+     Lower Hem. Trend & Plunge of B     69.99    60.00
+     Lower Hem. Trend, Plunge of P,T    272.80    28.03   177.49     9.85
+     MRR =-0.19  MTT = 0.97  MPP =-0.78  MRT =-0.19  MRP =-0.42  MTP = 0.00
+  Can superimpose P,T,B, nodal planes, etc.
+    E.g., a dashed lines for a second solution
+ Add more solutions?..[N]........................:  Add a plot label?...............................: 

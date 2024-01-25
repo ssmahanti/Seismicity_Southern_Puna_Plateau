@@ -1,0 +1,94 @@
+  Tue Oct 17 13:57:08 2023 for program Focmec
+ Event 8703270729 4 UW errors max
+ Input from a file puna_200803041224_p.inp
+ 200803041224
+
+ Statn  Azimuth    TOA   Key  Log10 Ratio  NumPol  DenTOA  Comment
+  NS04   184.4    100.2   U                                IP
+  NS18   188.4     79.9   +                                IP
+ Including emergent polarity picks
+  NS17   189.1     79.9   +                                IP
+  NS16   189.6     79.9   +                                IP..
+  NS15   189.8     79.9   +                                IP..
+  NS05   188.9     98.2   U                                IP
+  NS06   190.1     96.6   U                                IP
+  NS03   191.0    103.0   U                                IP
+  NS14   192.8     79.9   U                                IP
+  NS11   196.4     92.4   +                                IP..
+  NS07   196.2     95.8   U                                IP
+  NS10   196.6     92.7   U                                IP
+  NS09   197.2     93.6   U                                IP
+  NS08   199.2     94.4   U                                IP
+  NS02   198.4    107.4   U                                IP
+  EW11   203.3     95.4   U                                IP
+  BB01   205.9     79.9   U                                IP
+  EW12   207.8     94.8   U                                IP
+  BB02   209.7     91.9   U                                IP
+  NS01   207.7    113.6   U                                IP
+  EW13   213.7     94.7   U                                IP
+  NS19   211.2    119.9   U                                IP
+  BB10   214.9     98.8   U                                IP
+  EW14   217.0     93.8   U                                IP
+  EW15   221.5     93.1   U                                IP
+  EW16   221.7     92.3   U                                IP
+  EW17   224.7     91.9   U                                IP
+  EW18   227.1     79.9   U                                IP
+  BB09   227.5     94.4   U                                IP
+  EW19   230.2     79.9   +                                IP
+  NS20   227.4    140.3   +                                IP
+  EW20   231.4     79.9   -                                IP
+  BB08   254.8     99.6   -                                IP
+  BB23   284.0     79.9   -                                IP
+  NS21   350.4    168.1   -                                IP
+  NS22    11.1    137.5   U                                IP
+  GALA    86.4    110.3   D                                IP
+  EW22   127.6     79.9   U                                IP
+  EW08   128.9     79.9   +                                IP
+  EW07   133.0     79.9   U                                IP
+  EW06   133.7     91.9   U                                IP
+  EW05   136.2     92.5   U                                IP
+  BB15   151.1     79.9   U                                IP
+  EW03   154.5     93.5   U                                IP
+  EW02   155.5     94.4   U                                IP
+  BB13   161.0     79.9   U                                IP
+  EW01   164.1     95.0   U                                IP
+  BB11   166.1     92.5   U                                IP
+  BB12   174.9     79.9   U                                IP
+  EW10   178.1     97.1   U                                IP
+ Polarities/Errors:  P 050/00  SV 000/00  SH 000/00
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     54.07   302.54   -37.45
+     Dip,Strike,Rake     60.50    56.75  -137.61   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    326.75    29.50   212.54    35.93
+     Lower Hem. Trend, Plunge of P,T    272.84    49.74   178.31     3.83
+     B trend, B plunge, Angle:   85.09  40.00 140.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     60.00   307.03   -35.26
+     Dip,Strike,Rake     60.00    56.50  -144.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    326.50    30.00   217.03    30.00
+     Lower Hem. Trend, Plunge of P,T    271.76    45.00   181.76     0.00
+     B trend, B plunge, Angle:   91.76  45.00 135.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     56.17   311.26   -22.76
+     Dip,Strike,Rake     71.25    54.40  -143.99   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    324.40    18.75   221.26    33.83
+     Lower Hem. Trend, Plunge of P,T    277.54    38.38   179.86     9.58
+     B trend, B plunge, Angle:   78.26  50.00 150.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     62.97   311.37   -30.68
+     Dip,Strike,Rake     62.97    56.46  -149.32   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    326.46    27.03   221.37    27.03
+     Lower Hem. Trend, Plunge of P,T    273.91    40.00   183.91     0.00
+     B trend, B plunge, Angle:   93.91  50.00 135.00
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are   4 acceptable solutions

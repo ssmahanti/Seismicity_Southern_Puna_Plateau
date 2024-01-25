@@ -1,0 +1,24 @@
+  Wed Jun 17 14:25:55 2009  for program FOCMEC
+ Sakhalin:  Relative weight SV 0.5 error: 8 BB stations
+ Input from a file focmec_8sta.inp
+  12-MAY-90 Sakhalin Island Event:  BLA, DMC, using 0.1 Hz velocity   KIP ok
+ Polarities/Errors:  P 008/ 0.0  SV 008/ 0.5  SH 008/ 0.0  Threshh. = 0.10
+ Input 16 ratios  0 allowed errors, maximum error of 0.50    VP/VS = 1.830
+For ratios,  0.050 = P radiation cutoff  0.150 = S radiation cutoff
+ The minimum, increment and maximum B axis trend are     0.00    5.00  355.00
+ The limits for the B axis plunge are     0.00    5.00   90.00
+ The limits for the angle of the A axis are     0.00    5.00   85.00
+ R Ac/Al is number of acceptable ratios / allowed
+ RMS Err is the RMS of acceptable obs-calc ratios
+ RMS Err (all) is the RMS of all obs-calc ratios
+    Dip   Strike   Rake    Pol: P     SV    SH   R Ac/Al  RMS RErr   RErr (All)
+   80.04   60.88  -84.92        0.0   0.3   0.0    16/16      0.24      0.24
+   80.04   65.88  -84.92        0.0   0.4   0.0    16/16      0.22      0.22
+   80.15   65.13  -79.85        0.0   0.4   0.0    16/16      0.22      0.22
+   80.34   64.33  -74.78        0.0   0.5   0.0    16/16      0.22      0.22
+   80.34   69.47  -74.78        0.0   0.5   0.0    16/16      0.25      0.25
+   75.92   58.18  -69.35        0.0   0.3   0.0    16/16      0.25      0.25
+   76.43   59.08  -64.23        0.0   0.4   0.0    16/16      0.26      0.26
+   72.77   50.96  -58.43        0.0   0.2   0.0    16/16      0.28      0.28
+   77.05   59.89  -59.13        0.0   0.4   0.0    16/16      0.28      0.28
+   73.73   51.45  -53.31        0.0   0.4   0.0    16/16      0.29      0.29

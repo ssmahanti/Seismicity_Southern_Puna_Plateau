@@ -1,0 +1,46 @@
+* **********************************
+* NETWORK   (KNETWK): X6
+* STATION    (KSTNM): BB12
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2022-04-05T21:37:34
+* START             : 2007-12-15T15:30:20
+* END               : 2009-12-31T23:59:59
+* DESCRIPTION       : Argentina,Las Barancas
+* LATITUDE          : -27.513100
+* LONGITUDE         : -67.124496
+* ELEVATION         : 2152.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 50.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-2 G1/Reftek 130 Datalogger
+* INSTGAIN          : 1.500400e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 9.442420e+08 (M/S)
+* A0                : 5.743570e+12
+* **********************************
+ZEROS	6
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.515000e+01	+0.000000e+00	
+	-3.186000e+02	+4.012000e+02	
+	-3.186000e+02	-4.012000e+02	
+POLES	9
+	-3.700000e-02	+3.700000e-02	
+	-3.700000e-02	-3.700000e-02	
+	-1.599000e+01	+0.000000e+00	
+	-4.171000e+02	+0.000000e+00	
+	-1.872000e+02	+0.000000e+00	
+	-1.009000e+02	+4.019000e+02	
+	-1.009000e+02	-4.019000e+02	
+	-7.454000e+03	+7.142000e+03	
+	-7.454000e+03	-7.142000e+03	
+CONSTANT	5.423320e+21
+
+
+
+

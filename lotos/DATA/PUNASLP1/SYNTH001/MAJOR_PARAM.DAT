@@ -1,0 +1,156 @@
+
+********************************************************
+GENERAL INFORMATION :
+2	KEY 1: REAL; KEY 2: SYNTHETIC  
+1	KEY 1: Vp and Vs; KEY 2: Vp and Vp/Vs  
+0	KEY 0: all data, KEY 1: odd events, KEY 2: even events
+0	Ref. model optimization (0-no; 1-yes)
+
+
+********************************************************
+AREA_CENTER :
+-67.1 -26.7      Center of conversion to XY
+
+********************************************************
+1D LOCATION KEY :
+1    1: using reference table (large areas); 
+     2: using straight lines (small areas with high relief)
+
+
+********************************************************
+ORIENTATIONS OF GRIDS :
+4                   number of grids
+0 22 45 67                   orientations
+
+
+********************************************************
+INVERSION PARAMETERS :
+100 1			LSQR iterations, iter_max
+1 0.7 Weights for P and S models in the upper part
+0.75 1.00  level of smoothing (P, S and crust)
+1.5 1.5 regularization level (P, S and crust)
+
+1.0001   1.0001	weight of the station corrections (P and S)
+5.0	wzt_hor
+5.0	wzt_ver
+2.0	wzt_time
+
+********************************************************
+1D MODEL PARAMETERS :
+3		Iterations for 1D inversions
+-3 3. 5		zmin, dzstep depth step for finding the best event
+1 1 300		dsmin, dzlay,zgrmax : parameters for 1D tracing
+2.		dz_par, step for parameterization
+0.5		sum porog
+6. 9. sm_p,sm_s
+2.0 2.0 rg_p,rg_s
+10 10 1 w_hor,w_ver,w_time
+300		LSQR iterations
+0 nsharp
+0	z_sharp
+
+
+********************************************************
+Parameters for location in 1D model using reference table
+and data selection:
+********************************************************
+LIN_LOC_PARAM :
+15        Minimal number of records
+100       km, maximum distance to nearest station
+1.5       S max resid with respect to P max resid 
+100       dist_limit=100 : within this distance the weight is equal
+1         n_pwr_dist=1   : power for decreasing of W with distance
+30        ncyc_av=10     
+
+! For output:
+30        bad_max=30          : maximal number of outliers
+0.2  maximal dt/distance
+100       distance limit 
+
+20        Frequency for output printing
+
+3         Number of different grids
+_______________________________________________________
+4 4 2          dx,dy,dz
+1.0       res_loc1=0.2   : lower limit for location (for LT residuals, W=1)
+2.0       res_loc2=1.5   : upper limit for location (for GT residuals, W=0)
+2.        w_P_S_diff=2 (+ causes better coherency of P and S)
+_______________________________________________________
+2 2 1     dx,dy,dz
+1.0       res_loc1=0.2   : lower limit for location (for LT residuals, W=1)
+1.5       res_loc2=1.5   : upper limit for location (for GT residuals, W=0)
+2.        w_P_S_diff=2 (+ causes better coherency of P and S)
+_______________________________________________________
+1 1 1     dx,dy,dz
+0.5        res_loc1=0.2   : lower limit for location (for LT residuals, W=1)
+1.0       res_loc2=1.5   : upper limit for location (for GT residuals, W=0)
+2.        w_P_S_diff=2 (+ causes better coherency of P and S)
+
+
+
+********************************************************
+Parameters for 3D model with regular grid
+********************************************************
+3D_MODEL PARAMETERS:
+-140. 140. 4.  xx1, xx2, dxx,
+-140. 140. 4.  yy1, yy2, dyy,
+-4. 20. 1. zz1, zz2, dzz
+5         distance from nearest node
+1         Smoothing factor1
+
+
+
+********************************************************
+Parameters for grid construction
+********************************************************
+GRID_PARAMETERS:
+-140. 140. 4.  grid for ray density calculation (X)
+-140. 140. 4.  grid for ray density calculation (Y)
+-4. 20. 1.0          min and max levels for grid
+1              ! Grid type: 1: nodes, 2: blocks
+1.             !min distance between nodes in vert. direction
+0.02 1000.0    !plotmin, plotmax= maximal ray density, relative to average
+-2.            !zupper:  Uppermost level for the nodes
+
+0.2            !dx= step of movement along x
+0.2            !dz= step of movement along z
+
+
+
+********************************************************
+Parameters for location in 3D model using bending tracing
+********************************************************
+LOC_PARAMETERS:
+! Parameters for BENDING:
+0.5       ds_ini: basic step along the rays
+5         min step for bending
+0.01 min value of bending
+5         max value for bending in 1 step
+
+! Parameters for location
+50        dist_limit=100 : within this distance the weight is equal
+1         n_pwr_dist=1   : power for decreasing of W with distance
+30        ncyc_av=10     
+
+0.2        res_loc1=0.2   : lower limit for location (for LT residuals, W=1)
+1.5       res_loc2=1.5   : upper limit for location (for GT residuals, W=0)
+2.        w_P_S_diff=2 (+ causes better coherency of P and S)
+5.        stepmax
+0.3       stepmin
+
+50        Frequency for output printing
+
+
+********************************************************
+Parameters for calculation of the reference table:
+********************************************************
+REF_PARAM:
+
+1.        min step
+80. max depth
+500.     max distance
+3         number of depth steps
+0 1  depth, step
+10 2 depth, step
+20 5 depth, step
+80       maximal depth

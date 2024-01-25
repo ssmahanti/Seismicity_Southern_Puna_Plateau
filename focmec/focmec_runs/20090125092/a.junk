@@ -1,0 +1,127 @@
+ Upper hemisphere projection?..[N]...............:  Plot polarity data?.............................:  Enter input file name...........................:  20090125092
+ Desired file?..[Y]..............................:  Plot impulsive P polarities?..[Y]...............:  Enter size for impulsive P polarities [0.25]....:  linewidth for impulsive P polarities..[1].......:  Plot emergent P polarities?...[N]...............:  Enter size for emergent P polarities [0.15].....:  linewidth for emergent P polarities..[1]........:  linewidth for circle outline..[2]...............:  Add a title?..[Y]...............................:  Include time & file name?..[Y]..................:  Add more data to plot?..[N].....................:  Plot focal mechanism solutions?..[Y]............:  Print/display solution summaries?..[N]..........:   Can plot P, SV & SH nodal surfaces or P, T & B axes
+  If you want to superimpose both, answer yes to more
+ Plot P, T and B axes?  [Y]......................:  P nodal planes..[Y].............................:  Dashed line?..[N]...............................:  Enter linewidth for solutions..[1]..............:  Solutions on same plot as data?..[Y]............:  Input solutions from a file?..[Y]...............:  Input file name.................................:   Event 8703270729 4 UW errors max
+ Correct file?  [Y]..............................:  Plot time & file name?..[Y].....................:      Dip,Strike,Rake     10.00   335.92    -0.00
+     Dip,Strike,Rake     90.00   245.92   100.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    335.92     0.00   245.92    80.00
+     Lower Hem. Trend & Plunge of B     65.92    10.00
+     Lower Hem. Trend, Plunge of P,T    326.07    44.14   165.77    44.14
+     MRR = 0.00  MTT = 0.13  MPP =-0.13  MRT =-0.90  MRP =-0.40  MTP =-0.12
+     Dip,Strike,Rake     10.00   346.06    -0.00
+     Dip,Strike,Rake     90.00   256.06   100.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    346.06     0.00   256.06    80.00
+     Lower Hem. Trend & Plunge of B     76.06    10.00
+     Lower Hem. Trend, Plunge of P,T    336.21    44.14   175.91    44.14
+     MRR = 0.00  MTT = 0.08  MPP =-0.08  MRT =-0.96  MRP =-0.24  MTP =-0.15
+     Dip,Strike,Rake     15.00   336.86    -0.00
+     Dip,Strike,Rake     90.00   246.86   105.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    336.86     0.00   246.86    75.00
+     Lower Hem. Trend & Plunge of B     66.86    15.00
+     Lower Hem. Trend, Plunge of P,T    322.35    43.08   171.37    43.08
+     MRR = 0.00  MTT = 0.19  MPP =-0.19  MRT =-0.89  MRP =-0.38  MTP =-0.18
+     Dip,Strike,Rake     15.79   323.32   -18.02
+     Dip,Strike,Rake     85.17    70.70  -105.05   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    340.70     4.83   233.32    74.21
+     Lower Hem. Trend & Plunge of B     72.00    15.00
+     Lower Hem. Trend, Plunge of P,T    324.86    47.73   174.25    38.38
+     MRR =-0.16  MTT = 0.31  MPP =-0.14  MRT =-0.89  MRP =-0.34  MTP =-0.15
+     Dip,Strike,Rake     20.00   333.53    -0.00
+     Dip,Strike,Rake     90.00   243.53   110.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    333.53     0.00   243.53    70.00
+     Lower Hem. Trend & Plunge of B     63.53    20.00
+     Lower Hem. Trend, Plunge of P,T    314.65    41.64   172.41    41.64
+     MRR = 0.00  MTT = 0.27  MPP =-0.27  MRT =-0.84  MRP =-0.42  MTP =-0.21
+     Dip,Strike,Rake     20.00   338.82    -0.00
+     Dip,Strike,Rake     90.00   248.82   110.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    338.82     0.00   248.82    70.00
+     Lower Hem. Trend & Plunge of B     68.82    20.00
+     Lower Hem. Trend, Plunge of P,T    319.94    41.64   177.70    41.64
+     MRR = 0.00  MTT = 0.23  MPP =-0.23  MRT =-0.88  MRP =-0.34  MTP =-0.25
+     Dip,Strike,Rake     20.59   324.47   -13.47
+     Dip,Strike,Rake     85.30    67.11  -110.07   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    337.11     4.70   234.47    69.41
+     Lower Hem. Trend & Plunge of B     68.82    20.00
+     Lower Hem. Trend, Plunge of P,T    316.65    46.04   174.83    37.16
+     MRR =-0.15  MTT = 0.38  MPP =-0.22  MRT =-0.84  MRP =-0.39  MTP =-0.18
+     Dip,Strike,Rake     25.00   330.92    -0.00
+     Dip,Strike,Rake     90.00   240.92   115.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    330.92     0.00   240.92    65.00
+     Lower Hem. Trend & Plunge of B     60.92    25.00
+     Lower Hem. Trend, Plunge of P,T    308.01    39.86   173.83    39.86
+     MRR = 0.00  MTT = 0.36  MPP =-0.36  MRT =-0.79  MRP =-0.44  MTP =-0.22
+     Dip,Strike,Rake     25.00   336.46    -0.00
+     Dip,Strike,Rake     90.00   246.46   115.00   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    336.46     0.00   246.46    65.00
+     Lower Hem. Trend & Plunge of B     66.46    25.00
+     Lower Hem. Trend, Plunge of P,T    313.55    39.86   179.37    39.86
+     MRR = 0.00  MTT = 0.31  MPP =-0.31  MRT =-0.83  MRP =-0.36  MTP =-0.29
+     Dip,Strike,Rake     25.46   330.30   -10.59
+     Dip,Strike,Rake     85.47    69.88  -115.08   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    339.88     4.53   240.30    64.54
+     Lower Hem. Trend & Plunge of B     72.00    25.00
+     Lower Hem. Trend, Plunge of P,T    315.27    43.97   181.52    35.63
+     MRR =-0.14  MTT = 0.40  MPP =-0.26  MRT =-0.83  MRP =-0.34  MTP =-0.28
+     Dip,Strike,Rake     30.38   329.75    -8.58
+     Dip,Strike,Rake     85.67    67.17  -120.10   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    337.17     4.33   239.75    59.62
+     Lower Hem. Trend & Plunge of B     69.67    30.00
+     Lower Hem. Trend, Plunge of P,T    308.88    41.56   182.43    33.83
+     MRR =-0.13  MTT = 0.47  MPP =-0.34  MRT =-0.77  MRP =-0.37  MTP =-0.30
+     Dip,Strike,Rake     31.47   326.06   -16.74
+     Dip,Strike,Rake     81.35    70.45  -120.38   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    340.45     8.65   236.06    58.53
+     Lower Hem. Trend & Plunge of B     75.48    30.00
+     Lower Hem. Trend, Plunge of P,T    309.96    45.19   184.78    29.79
+     MRR =-0.26  MTT = 0.54  MPP =-0.29  MRT =-0.75  MRP =-0.35  MTP =-0.31
+     Dip,Strike,Rake     35.31   328.45    -7.10
+     Dip,Strike,Rake     85.90    64.25  -125.10   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    334.25     4.10   238.45    54.69
+     Lower Hem. Trend & Plunge of B     67.13    35.00
+     Lower Hem. Trend, Plunge of P,T    302.77    38.87   182.83    31.77
+     MRR =-0.12  MTT = 0.54  MPP =-0.43  MRT =-0.71  MRP =-0.39  MTP =-0.31
+     Dip,Strike,Rake     36.22   326.13   -13.93
+     Dip,Strike,Rake     81.82    67.45  -125.41   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    337.45     8.18   236.13    53.78
+     Lower Hem. Trend & Plunge of B     73.22    35.00
+     Lower Hem. Trend, Plunge of P,T    303.90    42.15   185.10    28.03
+     MRR =-0.23  MTT = 0.60  MPP =-0.37  MRT =-0.69  MRP =-0.38  MTP =-0.32
+     Dip,Strike,Rake     40.26   327.70    -5.93
+     Dip,Strike,Rake     86.17    62.23  -130.11   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    332.23     3.83   237.70    49.74
+     Lower Hem. Trend & Plunge of B     65.45    40.00
+     Lower Hem. Trend, Plunge of P,T    298.00    35.93   183.79    29.50
+     MRR =-0.10  MTT = 0.61  MPP =-0.51  MRT =-0.65  MRP =-0.39  MTP =-0.32
+     Dip,Strike,Rake     46.92   326.89   -14.51
+     Dip,Strike,Rake     79.46    66.91  -135.99   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    336.91    10.54   236.89    43.08
+     Lower Hem. Trend & Plunge of B     77.64    45.00
+     Lower Hem. Trend, Plunge of P,T    296.88    37.76   189.85    20.71
+     MRR =-0.25  MTT = 0.72  MPP =-0.47  MRT =-0.54  MRP =-0.38  MTP =-0.40
+     Dip,Strike,Rake     51.62   328.98   -12.25
+     Dip,Strike,Rake     80.43    66.66  -140.98   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    336.66     9.57   238.98    38.38
+     Lower Hem. Trend & Plunge of B     78.25    50.00
+     Lower Hem. Trend, Plunge of P,T    295.26    33.82   192.12    18.75
+     MRR =-0.21  MTT = 0.73  MPP =-0.52  MRT =-0.49  MRP =-0.35  MTP =-0.45
+     Dip,Strike,Rake     52.84   330.67   -16.01
+     Dip,Strike,Rake     77.30    70.50  -141.74   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    340.50    12.70   240.67    37.16
+     Lower Hem. Trend & Plunge of B     86.08    50.00
+     Lower Hem. Trend, Plunge of P,T    297.41    35.63   195.74    15.77
+     MRR =-0.27  MTT = 0.72  MPP =-0.45  MRT =-0.47  MRP =-0.35  MTP =-0.51
+     Dip,Strike,Rake     66.07   324.69   -26.34
+     Dip,Strike,Rake     66.07    66.05  -153.66   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    336.05    23.93   234.69    23.93
+     Lower Hem. Trend & Plunge of B    105.36    55.00
+     Lower Hem. Trend, Plunge of P,T    285.37    35.00    15.37     0.00
+     MRR =-0.33  MTT = 0.88  MPP =-0.55  MRT =-0.12  MRP =-0.45  MTP =-0.43
+     Dip,Strike,Rake     63.94   329.68   -24.23
+     Dip,Strike,Rake     68.37    70.86  -151.80   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    340.86    21.63   239.68    26.06
+     Lower Hem. Trend & Plunge of B    105.37    55.00
+     Lower Hem. Trend, Plunge of P,T    291.46    34.84   199.47     2.86
+     MRR =-0.32  MTT = 0.80  MPP =-0.47  MRT =-0.22  MRP =-0.42  MTP =-0.54
+  Can superimpose P,T,B, nodal planes, etc.
+    E.g., a dashed lines for a second solution
+ Add more solutions?..[N]........................:  Add a plot label?...............................: 

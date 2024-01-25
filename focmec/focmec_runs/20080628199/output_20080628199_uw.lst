@@ -1,0 +1,168 @@
+  Tue Oct 24 16:56:13 2023 for program Focmec
+ Event 8703270729 4 UW errors max
+ Input from a file puna_20080628199_p.inp
+ 20080628199
+
+ Statn  Azimuth    TOA   Key  Log10 Ratio  NumPol  DenTOA  Comment
+  NS16   199.4     91.9   -                                IP
+ Including emergent polarity picks
+  NS14   207.3     92.6   -                                IP
+  NS10   228.7     97.1   -                                IP
+  NS09   241.8    100.2   -                                IP
+  NS08   261.0    102.1   -                                IP
+  EW14   271.9     94.2   U                                IP
+  EW12   276.0     98.1   U                                IP
+  EW13   278.4     95.9   U                                IP
+  EW11   280.5    100.9   U                                IP
+  NS07   285.0    107.0   U                                IP
+  BB09   285.6     93.0   U                                IP
+  NS06   309.1    113.5   U                                IP
+  BB10   313.8     96.5   U                                IP
+  BB08   321.3     91.7   +                                IP
+  NS05   333.4    107.3   U                                IP
+  NS03   347.1     98.6   U                                IP
+  NS02   347.3     95.8   +                                IP
+  EW10     6.7    120.0   U                                IP
+  NS22     0.8     91.3   +                                IP
+  NS24     2.1     90.3   -                                IP
+  NS23     2.6     90.8   -                                IP
+  GALA    18.6     91.6   +                                IP
+  EW09    60.8    130.1   D                                IP
+  BB16    85.7     89.8   -                                IP..
+  EW01    92.0    107.7   -                                IP..
+  EW02    92.8     99.5   -                                IP
+  EW06    96.7     91.0   U                                IP
+  EW07    98.7     90.5   U                                IP
+  EW03   105.3     97.1   U                                IP
+  BB15   127.1     91.1   U                                IP
+  BB11   141.8     97.1   U                                IP
+ Polarities/Errors:  P 031/02  SV 000/00  SH 000/00
+ There are no amplitude ratio data
+ The minimum, increment and maximum B axis trend:     0.00    5.00  355.00
+ The limits for the B axis plunge:     0.00    5.00   90.00
+ The limits for Angle:     0.00    5.00  175.00
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     78.56   271.68    49.02
+     Dip,Strike,Rake     42.27   168.83   162.86   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     78.83    47.73   181.68    11.44
+     Lower Hem. Trend, Plunge of P,T     31.82    22.52   143.38    41.56
+     B trend, B plunge, Angle:  281.45  40.00  75.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     71.11   271.31    47.21
+     Dip,Strike,Rake     46.03   162.04   153.27   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     72.04    43.97   181.31    18.89
+     Lower Hem. Trend, Plunge of P,T     31.17    15.19   137.52    46.04
+     B trend, B plunge, Angle:  288.00  40.00  65.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     79.45   271.62    44.01
+     Dip,Strike,Rake     46.92   171.60   165.49   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     81.60    43.08   181.62    10.55
+     Lower Hem. Trend, Plunge of P,T     34.56    20.70   141.58    37.76
+     B trend, B plunge, Angle:  282.35  45.00  75.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     72.61   271.16    42.19
+     Dip,Strike,Rake     50.14   166.01   157.09   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     76.01    39.86   181.16    17.39
+     Lower Hem. Trend, Plunge of P,T     33.84    14.00   136.65    41.64
+     B trend, B plunge, Angle:  289.41  45.00  65.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     68.37   272.81    28.21
+     Dip,Strike,Rake     63.94   171.63   155.77   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     81.63    26.06   182.81    21.63
+     Lower Hem. Trend, Plunge of P,T     41.42     2.87   133.41    34.85
+     B trend, B plunge, Angle:  307.32  55.00  50.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     60.50   268.49    -5.73
+     Dip,Strike,Rake     85.02     1.32  -150.38   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N    271.32     4.98   178.49    29.50
+     Lower Hem. Trend, Plunge of P,T    228.96    24.18   131.23    16.67
+     B trend, B plunge, Angle:   10.00  60.00 170.00
+
+ P Polarity error at  EW10 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.15   272.50    28.48
+     Dip,Strike,Rake     61.98   177.20   168.83   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     87.20    28.02   182.50     9.85
+     Lower Hem. Trend, Plunge of P,T     41.99    12.20   138.30    26.95
+     B trend, B plunge, Angle:  290.00  60.00  70.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     87.89   271.47    24.92
+     Dip,Strike,Rake     65.10   180.49   177.67   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     90.49    24.90   181.47     2.11
+     Lower Hem. Trend, Plunge of P,T     43.25    15.76   138.79    18.89
+     B trend, B plunge, Angle:  276.00  65.00  85.00
+
+ P Polarity error at  GALA EW02
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     83.72   274.35    24.25
+     Dip,Strike,Rake     65.91   181.53   173.12   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     91.53    24.09   184.35     6.28
+     Lower Hem. Trend, Plunge of P,T     45.62    12.20   140.50    21.47
+     B trend, B plunge, Angle:  288.00  65.00  75.00
+
+ P Polarity error at  EW14 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     77.80   272.38    21.99
+     Dip,Strike,Rake     68.53   177.50   166.88   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     87.50    21.47   182.38    12.20
+     Lower Hem. Trend, Plunge of P,T     43.65     6.28   136.47    24.09
+     B trend, B plunge, Angle:  300.00  65.00  60.00
+
+ P Polarity error at  NS22 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     Dip,Strike,Rake     80.15   273.92    17.50
+     Dip,Strike,Rake     72.77   180.83   169.69   Auxiliary Plane
+     Lower Hem. Trend, Plunge of A,N     90.83    17.23   183.92     9.85
+     Lower Hem. Trend, Plunge of P,T     46.53     5.08   138.32    19.29
+     B trend, B plunge, Angle:  302.40  70.00  60.00
+
+ P Polarity error at  EW14 GALA
+ P Polarity weights:  1.00 1.00
+  Total P polarity weight is  2.000   Total number:   2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+ There are  11 acceptable solutions

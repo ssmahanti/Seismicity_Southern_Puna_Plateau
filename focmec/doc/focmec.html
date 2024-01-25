@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>FOCMEC</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<table width="600" align = "center" BORDER="0" Cellpadding="0">
+<tr>
+<td>
+<CENTER>
+<H2><i>FOCMEC</i>: README</H2>
+</CENTER>
+<p> This package contains software for determining and displaying double-couple earthquake focal mechanisms. Input are polarities (P, SV , SH) and/or amplitude ratios (SV/P, SH/P, SV/SH). The main program, <i>focmec</i> (coded in gfortran), performs an efficient, systematic search of the focal sphere and reports acceptable solutions based on selection criteria for the number of polarity errors and errors in amplitude ratios. The search of the focal sphere is approximately equal-area, with selectable step sizes and bounds. The selection criteria for both polarities and amplitudes allow adjustments through weightings for near-nodal solutions.</p>
+
+<p>
+All paths in this documentation are defined relative to the top directory <i>./focmec</i>, which is created by uncompressing and expanding the tarball <i>./focmec.tgz</i>.  This file is accordingly <i>./focmec//doc/focmec.html</i>.  The <i>FOCMEC</i> manual is <a href="./focmec_manual.pdf" target="_blank"><i>./focmec//doc/focmec_manual.pdf</i></a>.</p>
+
+<p>
+To build the libraries, tables, and executables, it should suffice to go to <i>.focmec//src</i> and (in a Unix system that includes the <i>csh</i> shell) enter <i>./build_package</i>. The script is set to use the <i>gfortran</i> compiler, so if you are using a different compiler, you have to edit the first few lines so that it defines <i>FCMP</i> appropriately. If the script runs with no errors, the last thing shown on the screen is a compile/link line for program <i>vwbeetle</i> (a test program for the graphics package). Executables and graphics scripts <i>sgfxxx</i> will be in directory <i>./focmec/bin</i>. Scripts for testing parts of the package are in <i>./focmec/tests</i>.  To delete all executables and libraries, cd to <i>./focmec/src</i> and enter <i>./make clean</i>.</p>
+
+<p>To run the <i>FOCMEC</i> package programs from any directory, you must put the executables in your path.  For csh or tsch environments, edit ~/.cshrc adding the line<br>
+<center> setenv PATH ${PATH}:/usr/local/focmec/bin</center>  
+<br>For bash, edit ~/.bashrc adding the line<br><br>
+<center> export PATH=${PATH}:$/usr/local/focmec/bin</center><br>
+These lines assume /usr/local/focmec is the address for ./focmec on your computer.</p>
+
+<h3>Other documentation</h3>
+<ul> 
+<li><p><a href="./etn-event.html" target="_blank">Documentation for the Eastern Tennessee event data set</a>
+<li><p><a href="./sakhalin.html" target="_blank">Documentation for the Sakhalin Island event data set</a>
+<li><p><a href="./graphics.html" target="_blank">Graphics overview</a>
+<li><p><a href="./update.html" target="_blank">Update history for the <i>FOCMEC</i> package</a>
+</ul>
+<p> Subdirectories of <i>./focmec/doc</i> have output files from the test runs done in both <i>./focmec/tests</i> and <i>./focmec/sample_runs</i>.
+
+<p> The appropriate reference for this package is
+<blockquote>
+Snoke, J.A. (2003). FOCMEC: FOcal MEChanism determinations. International Handbook of Earthquake and Engineering Seismology (W.H.K. Lee, H. Kanamori, P.C. Jennings, and C. Kisslinger, Eds.), Academic Press, San Diego, Chapter 85.12. 
+</blockquote>
+
+</td></tr></table>
+</BODY>
+</HTML>
