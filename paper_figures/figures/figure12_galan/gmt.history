@@ -1,0 +1,10 @@
+# GMT 6 Session common arguments shelf
+BEGIN GMT 6.1.1
+B	a0.2+lVs(km/s)
+J	X
+JM	M4i
+JX	X1.4i/0.7i
+R	0/40/-10/7
+Y	-2.4
+@L	20
+END

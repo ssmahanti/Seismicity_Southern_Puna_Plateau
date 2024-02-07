@@ -1,0 +1,11 @@
+# GMT 6 Session common arguments shelf
+BEGIN GMT 6.1.1
+B	a10f10:Distance(km)::,:/a10f5:::,:weSn
+J	X
+JM	M6i
+JX	X1.3i/0.9i
+R	0/40/-20/10
+X	3.7
+Y	-3.1
+@L	37
+END
