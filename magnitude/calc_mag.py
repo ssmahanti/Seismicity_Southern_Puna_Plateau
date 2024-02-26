@@ -1,4 +1,5 @@
-#calculate local magnitude for earthquakes located by REAL associator. We need the phase files from REAL and sacfiles of actual data
+#Script modified from LOC-FLOW
+#calculate local magnitude for earthquakes located by REAL associator.. We need the phase files from REAL and sacfiles of actual data
 #The maginput.sh script  creates the magcalc.txt file for each day.
 
 import obspy

@@ -1,6 +1,0 @@
-#!/bin/csh -f
-if ( -f puna.term) \rm puna.term
-../bin/remodl puna2 > puna.term
-../bin/setbrn >> puna.term
-mkdir -p stuff
-\mv setb* remod* stuff
