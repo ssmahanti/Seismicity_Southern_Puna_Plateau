@@ -1,8 +1,8 @@
 ## Introduction:
 
-This repository contains the codes used in this study along with scripts for format conversion, analysis and plotting figures. Each folder has its own readme file explaining the steps to reproduce the results. The references for repositories of the source codes are listed below. 
+This repository contains the codes and scripts used in the study "Seismicity and Present-Day Crustal Deformation in the Southern Puna Plateau". The primary analysis in this study is done usng codes from previous works and those codes need to be retrieved from the original studies. The references for repositories of the source codes are listed below. 
 
-Due to space constraints, raw data files (mseed or SAC) are not kept in the repository. However, the *phasenet* folder contains script to download the data archived at Earthscope consortium and GEOFON data center.
+The codes and scripts included in this repository are primarily for format conversion, result analysis, and plotting figures. Each folder has its own readme file explaining the steps to reproduce the results. Due to space constraints, raw data files (mseed or SAC) are not kept in the repository.
 
 The general workflow follows as:
 
