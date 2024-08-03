@@ -19,7 +19,7 @@ The general workflow follows as:
 5. Waldhauser, F., & Ellsworth, W. (2000). A Double-Difference Earthquake Location Algorithm: Method and Application to the Northern Hayward Fault, California. Bulletin of the Seismological Society of America, 90(6), 1353–1368. https://doi.org/10.1785/0120000006
 6. Koulakov, I. (2009). LOTOS Code for Local Earthquake Tomographic Inversion: Benchmarks for Testing Tomographic Algorithms. Bulletin of the Seismological Society of America, 99(1), 194–214. https://doi.org/10.1785/0120080013
 7. Vavryčuk, V. (2014). Iterative joint inversion for stress and fault orientations from focal mechanisms. Geophysical Journal International, 199(1), 69–77. https://doi.org/10.1093/gji/ggu224
-Snoke, J. A. (2003). 85.12 FOCMEC: FOCal MEChanism determinations (pp. 1629–1630). https://doi.org/10.1016/S0074-6142(03)80291-7
+8. Snoke, J. A. (2003). 85.12 FOCMEC: FOCal MEChanism determinations (pp. 1629–1630). https://doi.org/10.1016/S0074-6142(03)80291-7
 
 ## Author:
 
