@@ -13,8 +13,8 @@ bound_cross2="-R0/218/-10/7"
 #FILES
 stationpath="/Users/sankha/Desktop/research/Spuna_plateau/station"
 plotdatapath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/plotdata"
-grdpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/grdfiles"
-cptpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/cptfiles"
+grdpath="/Users/sankha/Desktop/research/grdfiles"
+cptpath="/Users/sankha/Desktop/research/cptfiles"
 modelpath="/Users/sankha/Desktop/research/Spuna_plateau/lotos/output"
 eqpath="/Users/sankha/Desktop/research/Spuna_plateau/hypodd/output"
 output="velmodel_cross_v1_s.ps"
@@ -41,7 +41,7 @@ gmt psmask   -C  -O -K  >>$output
 
 #Plotting earthquakes
 awk '{print $8,$7,$9}' $eqpath/catalog_hypodd_puna_crust_v5.txt | gmt project -C$A1 -E$B1 -Fxyzpqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07  -Gred  -P  -W0.05p -O -K >> $output
+awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07 -P  -W0.01p,white -Ggray10 -O -K >> $output
 
 #Plotting topography
 gmt project -C$A1 -E$B1 -G.2  -Q > topo.xy
@@ -57,7 +57,7 @@ awk '{print $3, $4/1000.0}' topo.xz | gmt psxy $proj_cross $bound_cross $Bcross 
 
 #Plotting vents
 awk '{print $1,$2}' $plotdatapath/puna_mafic_vents.txt | gmt project -C$A1 -E$B1 -Fxypqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.15  -Gorange -P  -W0.08p -O -K >> $output
+awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.14  -Gfirebrick1 -P  -W0.08p -O -K >> $output
 #Plotting volcano
 awk '{print $2,$1,$3}' $plotdatapath/holocene_volcano.txt > temp_volcano.txt
 awk '{print $2,$1,$3}' $plotdatapath/pliestocene_volcano.txt >> temp_volcano.txt
@@ -88,7 +88,7 @@ gmt psmask   -C  -O -K  >>$output
 
 #Plotting earthquakes
 awk '{print $8,$7,$9}' $eqpath/catalog_hypodd_puna_crust_v5.txt | gmt project -C$A2 -E$B2 -Fxyzpqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07  -Gred  -P  -W0.05p -O -K >> $output
+awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07 -P  -W0.01p,white -Ggray10 -O -K >> $output
 
 #Plotting topography
 gmt project -C$A2 -E$B2 -G.2  -Q > topo.xy
@@ -104,7 +104,7 @@ awk '{print $3, $4/1000.0}' topo.xz | gmt psxy $proj_cross $bound_cross $Bcross 
 
 #Plotting vents
 awk '{print $1,$2}' $plotdatapath/puna_mafic_vents.txt | gmt project -C$A2 -E$B2 -Fxypqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.15  -Gorange -P  -W0.08p -O -K >> $output
+awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.14  -Gfirebrick1 -P  -W0.08p -O -K >> $output
 #Plotting VOLCANO
 awk '{print $2,$1,$3}' $plotdatapath/holocene_volcano.txt > temp_volcano.txt
 awk '{print $2,$1,$3}' $plotdatapath/pliestocene_volcano.txt >> temp_volcano.txt
@@ -135,7 +135,7 @@ gmt psmask   -C  -O -K  >>$output
 
 #Plotting earthquakes
 awk '{print $8,$7,$9}' $eqpath/catalog_hypodd_puna_crust_v5.txt | gmt project -C$A3 -E$B3 -Fxyzpqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07  -Gred  -P  -W0.05p -O -K >> $output
+awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07 -P  -W0.01p,white -Ggray10 -O -K >> $output
 
 #Plotting topography
 gmt project -C$A3 -E$B3 -G.2  -Q > topo.xy
@@ -151,7 +151,7 @@ awk '{print $3, 0.2 + $4/1000.0}' topo.xz | gmt psxy $proj_cross $bound_cross $B
 
 #Plotting vents
 awk '{print $1,$2}' $plotdatapath/puna_mafic_vents.txt | gmt project -C$A3 -E$B3 -Fxypqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.15  -Gorange -P  -W0.08p -O -K >> $output
+awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.14  -Gfirebrick1 -P  -W0.08p -O -K >> $output
 #Plotting VOLCANO
 awk '{print $2,$1,$3}' $plotdatapath/holocene_volcano.txt > temp_volcano.txt
 awk '{print $2,$1,$3}' $plotdatapath/pliestocene_volcano.txt >> temp_volcano.txt
@@ -182,7 +182,7 @@ gmt psmask   -C  -O -K  >>$output
 
 #Plotting earthquakes
 awk '{print $8,$7,$9}' $eqpath/catalog_hypodd_puna_crust_v5.txt | gmt project -C$A4 -E$B4 -Fxyzpqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07  -Gred -P  -W0.05p -O -K >> $output
+awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Sc0.07 -P  -W0.01p,white -Ggray10 -O -K >> $output
 
 #Plotting topography
 gmt project -C$A4 -E$B4 -G.2  -Q > topo.xy
@@ -198,7 +198,7 @@ awk '{print $3, 0.15 + $4/1000.0}' topo.xz | gmt psxy $proj_cross $bound_cross $
 
 #Plotting vents
 awk '{print $1,$2}' $plotdatapath/puna_mafic_vents.txt | gmt project -C$A4 -E$B4 -Fxypqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.15  -Gorange -P  -W0.08p -O -K >> $output
+awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross -Ss0.14  -Gfirebrick1 -P  -W0.08p -O -K >> $output
 #Plotting volcano
 awk '{print $2,$1,$3}' $plotdatapath/holocene_volcano.txt > temp_volcano.txt
 awk '{print $2,$1,$3}' $plotdatapath/pliestocene_volcano.txt >> temp_volcano.txt
@@ -229,7 +229,7 @@ gmt psmask   -C  -O -K  >>$output
 
 #Plotting earthquakes
 awk '{print $8,$7,$9}' $eqpath/catalog_hypodd_puna_crust_v5.txt | gmt project -C$A5 -E$B5 -Fxyzpqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross2 -Sc0.07  -Gred -P  -W0.05p -O -K >> $output
+awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross $Bcross2 -Sc0.07 -P  -W0.01p,white -Ggray10 -O -K >> $output
 
 #Plotting topography
 gmt project -C$A5 -E$B5 -G.2  -Q > topo.xy
@@ -245,7 +245,7 @@ awk '{print $3, 0.15 + $4/1000.0}' topo.xz | gmt psxy $proj_cross $bound_cross $
 
 #Plotting vents
 awk '{print $1,$2}' $plotdatapath/puna_mafic_vents.txt | gmt project -C$A5 -E$B5 -Fxypqrs -W-5/5  -Lw -Q > temp_sa.txt
-awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross -Ss0.15  -Gorange -P  -W0.08p -O -K >> $output
+awk '{print $3,4.1}' temp_sa.txt | gmt psxy $proj_cross $bound_cross -Ss0.14  -Gfirebrick1 -P  -W0.08p -O -K >> $output
 #Plotting volcano
 awk '{print $2,$1,$3}' $plotdatapath/holocene_volcano.txt > temp_volcano.txt
 awk '{print $2,$1,$3}' $plotdatapath/pliestocene_volcano.txt >> temp_volcano.txt

@@ -12,8 +12,8 @@ eventpath_velest="/Users/sankha/Desktop/research/Spuna_plateau/velest/output"
 eventpath_hypodd="/Users/sankha/Desktop/research/Spuna_plateau/hypodd/output"
 stationpath="/Users/sankha/Desktop/research/Spuna_plateau/station"
 plotdatapath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/plotdata"
-grdpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/grdfiles"
-cptpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/cptfiles"
+grdpath="/Users/sankha/Desktop/research/grdfiles"
+cptpath="/Users/sankha/Desktop/research/cptfiles"
 focmecpath="/Users/sankha/Desktop/research/Spuna_plateau/focmec/output"
 
 #change filename as required
@@ -55,7 +55,7 @@ gmt psxy $plotdatapath/lineaments.txt $proj_map $bound_map -W0.4p,red,- -O -K >>
 #Plot events
 awk '{print $8,$7,$9}' $eventpath_hypodd/catalog_hypodd_puna_crust_v5.txt| gmt psxy $proj_map $bound_map -Sc0.19 -W0.1p -Cdep.cpt -O  -K >>$output
 # Plotting focal mechanism
-cat $focmecpath/focmec_output.txt |tail -n+1 | awk '{print $4,$3,$5,$7,$8,$9,$6,$4,$3,$1}' | gmt psmeca $proj_map -R  -Sa1.3/7/-9 -O -K  -Gcoral1  -t5 >> $output
+cat $focmecpath/focmec_output.txt |tail -n+1 | awk '{print $4,$3,$5,$7,$8,$9,$6,$4,$3,$1}' | gmt psmeca $proj_map -R  -Sa1.7+f13,black+o0/-0.5 -O -K  -Gcoral1  -t5 >> $output
 
 #white box
 gmt psxy  $proj_map $bound_map -W0.7,black -Gwhite -O -K << EOF >> $output
@@ -171,7 +171,7 @@ awk '{print $8,$9,$11}' $focmecpath/focmec_center_orig.txt | gmt project -C$A2 -
 awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross -Sc0.12 -P -Gcoral1 -W0.1p -K -O >> $out_cross
 
 cat $focmecpath/focmec_center.txt | awk '{print $0}' > eq_cross2.dat
-gmt pscoupe eq_cross2.dat $proj_cross $bound_cross $Bcross -Sa0.8/5/-8 -Aa-67.7/-26.75/-66.8/-26.75/90/10/-10/0 -Gcoral1 -t20  -O -K >> $out_cross
+gmt pscoupe eq_cross2.dat $proj_cross $bound_cross $Bcross -Sa0.8/7/-8 -Aa-67.7/-26.75/-66.8/-26.75/90/10/-10/0 -Gcoral1 -t20  -O -K >> $out_cross
 
 #markers
 echo 3 -28 A2 >tmp_text.txt
@@ -206,7 +206,7 @@ awk '{print $8,$9,$11}' $focmecpath/focmec_center_orig.txt | gmt project -C$A3 -
 awk '{print $4,-$3}' temp_sa.txt | gmt psxy $proj_cross $bound_cross -Sc0.12 -P -Gcoral1 -W0.1p -K -O >> $out_cross
 
 cat $focmecpath/focmec_center.txt | awk '{print $0}' > eq_cross2.dat
-gmt pscoupe eq_cross2.dat $proj_cross $bound_cross $Bcross -Sa0.8/5/-8 -Aa-67.7/-27.0/-66.8/-27.0/90/10/-10/0 -Gcoral1 -t20  -O -K >> $out_cross
+gmt pscoupe eq_cross2.dat $proj_cross $bound_cross $Bcross -Sa0.8/7/-8 -Aa-67.7/-27.0/-66.8/-27.0/90/10/-10/0 -Gcoral1 -t20  -O -K >> $out_cross
 
 #markers
 echo 3 -28 A3 >tmp_text.txt

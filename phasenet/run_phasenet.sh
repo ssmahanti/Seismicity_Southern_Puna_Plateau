@@ -1,10 +1,10 @@
 #script for running phasenet in a loop for different days and months
 #First activate phasenet environment by: conda activate phasenet
 
-#Based on the dataset:
-#1. change the sampling rate in ./main/phasenet/datareader.py
-#2. change the probabilities in ./main/phasenet/predict.py
-#3. change dt=1/sampling_rate in ./main/phasenet/visualization.py
+#Based on the dataset for version= 0.1.0:
+#1. change the sampling rate in [PhaseNet folder]/main/phasenet/datareader.py
+#2. change the probabilities in [PhaseNet folder]/main/phasenet/predict.py
+#3. change dt=1/sampling_rate in [PhaseNet folder]/main/phasenet/visualization.py
 
 #Run the script:
 for ((m=1;m<=1;m++)) #Loop over months

@@ -11,8 +11,8 @@ eventpath_velest="/Users/sankha/Desktop/research/Spuna_plateau/velest/output"
 eventpath_hypodd="/Users/sankha/Desktop/research/Spuna_plateau/hypodd/output"
 stationpath="/Users/sankha/Desktop/research/Spuna_plateau/station"
 plotdatapath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/plotdata"
-grdpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/grdfiles"
-cptpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/cptfiles"
+grdpath="/Users/sankha/Desktop/research/grdfiles"
+cptpath="/Users/sankha/Desktop/research/cptfiles"
 focmecpath="/Users/sankha/Desktop/research/Spuna_plateau/focmec/output"
 
 #change filename as required
@@ -54,7 +54,7 @@ gmt psxy $plotdatapath/lineaments.txt $proj_map $bound_map -W0.4p,red,- -O -K >>
 #plot events
 awk '{print $8,$7,$9}' $eventpath_hypodd/catalog_hypodd_puna_crust_v5.txt| gmt psxy $proj_map $bound_map -Sc0.18 -W0.1p -Cdep.cpt -O  -K >>$output
 # Plotting focal mechanism
-cat $focmecpath/focmec_output.txt |tail -n+1 | awk '{print $4,$3,$5,$7,$8,$9,$6,$4,$3,$1}' | gmt psmeca $proj_map -R  -Sa1.3/7/-9 -O -K  -Gcoral1  -t5 >> $output
+cat $focmecpath/focmec_output.txt |tail -n+1 | awk '{print $4,$3,$5,$7,$8,$9,$6,$4,$3,$1}' | gmt psmeca $proj_map -R -Sa1.5+f12,black+o0/-0.5 -O -K  -Gcoral1  -t5 >> $output
 
 #white box
 gmt psxy  $proj_map $bound_map -W0.7,black -Gwhite -O -K << EOF >> $output

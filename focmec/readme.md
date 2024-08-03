@@ -1,5 +1,9 @@
 # Steps to perform for Focal Mechanism Analysis:
 
+The FOCMEC package from the following reference is used to obtain the focal mechanisms.
+
+Snoke, J. A. (2003). 85.12 FOCMEC: FOCal MEChanism determinations (pp. 1629–1630). https://doi.org/10.1016/S0074-6142(03)80291-7
+
 ## 1. Prerequisite:
 
 1. Waveform data for the event in MSEED format.

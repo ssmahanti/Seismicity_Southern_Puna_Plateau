@@ -59,10 +59,10 @@ awk '{print $8,$7,$9}' $eventpath_hypodd/catalog_hypodd_puna_crust_v5.txt| gmt p
 awk '{print $1,$2,$3,$4,$5,$6,$7,$1,$2}' $plotdatapath/gcmt_focmec.dat  | gmt psmeca $proj_map -R -C0.1 -Sa0.6/8/-10 -O -K -GGRAY24  -N  >> $output
 #This study: Different color for different group
 cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==5 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -GDARKRED -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
-cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==4 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -Gcoral1 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
-cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==3 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -GHOTPINK1 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
+cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==4 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -Gred1 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
+cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==3 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -Ghotpink1 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
 cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==1 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -Ggreen -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
-cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==2 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -GDARKORCHID1 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
+cat $focmecpath/focmec_output.txt |tail -n+2 | awk '{ if ( $16==2 ) print $4,$3,$5,$7,$8,$9,$6,$4,$3}' | gmt psmeca $proj_map -R -C0.1 -Sa1.0/8/-10 -O -K -Gpurple3 -Fa2.5p -Fz1p -Fgred -Feblue -N  >> $output
 
 #white box
 gmt psxy  $proj_map $bound_map -W0.7,black -Gwhite -O -K << EOF >> $output

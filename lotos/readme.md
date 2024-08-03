@@ -1,5 +1,7 @@
 # Steps for Local Earthquake Tomography with Velest:
 
+Copy the required program files from the LOTOS package to the run folders.
+
 ## Prepare Input files:
 
 1. Copy the final .CNV and .mod file from Velest to *inputfiles* folder.
@@ -24,12 +26,6 @@ To find the best damping and smoothing values from Model variance vs Data varian
 
 1. Clean up the model and refmod.dat file so that it only contains the five columns associated with the model.
 2. Run *python ./real_model/extract_model.py* to obtain the 3D model in Geographical coordinates.
-
-## Visualize raypath density:
-
-1. Run *./visual_grid_raypaths.sh* to obtain the raypath cooridnates in *./TMP_files/rays* folder.
-2. Run *"for f in *; do mv "$f" `echo $f | tr ' ' '_'`; done"* inside the *rays* folder to remove the blank spaces in the file names.
-3. Use the plotting script given in the *paper_figures/supplementary/fig_supp_raypath* to plot the ray density.
 
 ## Checkerboard Test:
 

@@ -4,13 +4,13 @@
 ## 1. Prepare Input Files (pickfiles):
 
 1. Copy the result_gfz and result_iris folder from Phasenet folder to the pick_phasenet folder.
-2. Run *run_pick.sh* for each set of picks with correct sampling rate in *picksplit.py* script.
-3. We need to run *./tt_db/taup_tt.py* if we are using a heterogeneous velocity model.
+2. The input pickfiles and velocity model file for REAL are prepared by following the steps mentioned in https://github.com/Dal-mzhang/REAL.git
 
 ## 2. Run REAL:
 
-1. Choose the parameters in *runREAL.pl* script.
-2. Run *run_perl.sh* to run the associator: REAL.
+1. Install REAL from https://github.com/Dal-mzhang/REAL.git
+2. Choose the parameters in *runREAL.pl* script.
+3. Run *run_perl.sh* to run REAL.
 
 ## 3. Output Files:
 

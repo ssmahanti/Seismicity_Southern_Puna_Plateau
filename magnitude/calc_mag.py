@@ -1,4 +1,5 @@
-#Script modified from LOC-FLOW
+#Script modified from the script provided in https://github.com/Dal-mzhang/REAL.git
+
 #calculate local magnitude for earthquakes located by REAL associator.. We need the phase files from REAL and sacfiles of actual data
 #The maginput.sh script  creates the magcalc.txt file for each day.
 

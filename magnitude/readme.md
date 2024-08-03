@@ -11,9 +11,10 @@
 
 ## 2. Calculate Magnitude:
 
-1. Modify the paths in *calc_mag.py* as required.
-2. Run *calc_mag.sh* to calculate the magnitude. It requires the actual SAC data and phase files from REAL associator.
-3. Calculated magnitudes are listed in *puna_mag_real_v5.txt*
+1. The *calc_mag.py* script is obtained and modified from https://github.com/Dal-mzhang/REAL.git
+2. Modify the paths in *calc_mag.py* as required.
+3. Run *calc_mag.sh* to calculate the magnitude. It requires the actual SAC data and phase files from REAL associator.
+4. Calculated magnitudes are listed in *puna_mag_real_v5.txt*
 
 ## 3. Make Catalog:
 

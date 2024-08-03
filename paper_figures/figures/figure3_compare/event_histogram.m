@@ -20,7 +20,7 @@ t2=datetime(y2,m2,d2,hh2,mm2,ss2);
 set(gcf, 'Position',  [100, 100, 1800, 1000]);
 histogram(t1,213,'facecolor','r','edgecolor','black','linewidth',0.01,'facealpha',1.0)
 hold on
-histogram(t2,213,'facecolor','cyan','edgecolor','black','linewidth',0.01,'facealpha',1.0)
+histogram(t2,213,'facecolor','#0072BD','edgecolor','black','linewidth',0.01,'facealpha',1.0)
 legend('This Study ','Mulcahy et al. 2014')
 set(gca,'FontSize',35)
 ylabel('No. of Events')

@@ -15,8 +15,8 @@ bmap="-Ba.5f.1:""::,:/a.5f.1:""::,:WeSn"
 eventpath_hypodd="/Users/sankha/Desktop/research/Spuna_plateau/hypodd/output"
 stationpath="/Users/sankha/Desktop/research/Spuna_plateau/station"
 plotdatapath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/plotdata"
-grdpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/grdfiles"
-cptpath="/Users/sankha/Desktop/research/Spuna_plateau/paper_figures/cptfiles"
+grdpath="/Users/sankha/Desktop/research/grdfiles"
+cptpath="/Users/sankha/Desktop/research/cptfiles"
 modelpath="/Users/sankha/Desktop/research/Spuna_plateau/lotos/output"
 
 output="velmodel_map_dep1_s.ps"
@@ -49,9 +49,9 @@ awk '{print $1,$2}' $stationpath/spuna_stations.txt | gmt psxy $proj_map $bound_
 awk '{print $2,$1}' $plotdatapath/holocene_volcano.txt | gmt psxy $proj_map $bound_map -St0.22 -W0.2p,black -Gmagenta -O -K >>$output
 awk '{print $2,$1}' $plotdatapath/pliestocene_volcano.txt | gmt psxy $proj_map $bound_map -St0.22 -W0.2p,black -Gmagenta -O -K >>$output
 #Earthquakes
-awk '{print $8,$7,$9}' $eventpath_hypodd/catalog_hypodd_puna_crust_v5.txt| gmt psxy $proj_map $bound_map -Sc0.08 -W0.01p -Gred -O  -K  >>$output
+awk '{print $8,$7,$9}' $eventpath_hypodd/catalog_hypodd_puna_crust_v5.txt| gmt psxy $proj_map $bound_map -Sc0.07 -W0.01p,white -Ggray10 -O  -K  >>$output
 #vents
-gmt psxy $plotdatapath/puna_mafic_vents.txt $proj_map $bound_map  -Ss0.13 -W0.2p,black -Gorange -O -K >>$output
+gmt psxy $plotdatapath/puna_mafic_vents.txt $proj_map $bound_map  -Ss0.11 -W0.2p,black -Gfirebrick1 -O -K >>$output
 
 #cross-section lines
 echo -68.3 -25.93 "A1" >tmp_map.txt
@@ -80,7 +80,7 @@ gmt set MAP_ANNOT_OFFSET_PRIMARY 2p
 gmt gmtset FONT_ANNOT_PRIMARY = 9p,Helvetica,black
 gmt gmtset FONT_LABEL		= 9p
 
-gmt psbasemap  $proj_map $bound_map  -LjBR+c27S+w40k+l+ab+f+o0.9c -P -K -O >> $output
+gmt psbasemap  $proj_map $bound_map  -LjBR+c27S+w40k+l+ab+f+o0.7c -P -K -O >> $output
 gmt psscale $proj_map $bound_map -Dx4.2/-1.0+w4.2/0.35+h+e -Ctomo.cpt  -Ba0.2+l"Vs(km/s)" -G3.0/3.88 -O -K  >> $output	
 echo -66.35 -25.6 "1 km below sea level" | gmt pstext -F+f15+a0+jCM $proj_map $bound_map -O -K -W0.5p,black -Gwhite >> $output
 

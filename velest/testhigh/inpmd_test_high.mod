@@ -1,4 +1,4 @@
-Mulachy1D-modell (mod1.1 EK280993)     Ref. station HGSM
+High 1D-model
  15        vel,depth,vdamp,phase (f5.2,5x,f7.2,2x,f7.3,3x,a1)		
  6.5       -5.0    001.00          P-VELOCITY MODEL
  6.5        0.0    001.00
